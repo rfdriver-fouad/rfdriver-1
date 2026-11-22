@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-6PCJVKYQVD');</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Book your RF Driver private chauffeur online. Calculate your journey, choose your vehicle and confirm your reservation in Paris, the Oise and across France." />
-  <meta name="keywords" content="private chauffeur booking, book VTC Paris, book VTC Oise, online chauffeur booking, RF Driver booking, private chauffeur Compiègne booking" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="description" content="Book your RF Driver private chauffeur online in Paris and the Oise: simple ride, V-Class Van, long distance, private tour or hourly hire." />
+  <meta name="robots" content="index, follow" />
   <title>Online Booking | RF Driver Private Chauffeur</title>
-  <link rel="canonical" href="https://rfdriver.fr/en/reservation.html" />
-  <link rel="alternate" hreflang="fr" href="https://rfdriver.fr/reservation.html" />
-  <link rel="alternate" hreflang="en" href="https://rfdriver.fr/en/reservation.html" />
-  <link rel="alternate" hreflang="x-default" href="https://rfdriver.fr/reservation.html" />
+  <link rel="canonical" href="https://rfdriver.fr/en/reservation" />
+  <link rel="alternate" hreflang="fr" href="https://rfdriver.fr/reservation" />
+  <link rel="alternate" hreflang="en" href="https://rfdriver.fr/en/reservation" />
+  <link rel="alternate" hreflang="x-default" href="https://rfdriver.fr/reservation" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="RF Driver" />
   <meta property="og:title" content="Online Booking | RF Driver" />
-  <meta property="og:description" content="Book your private chauffeur online in Paris, the Oise and across France. Instant calculation, secure payment." />
+  <meta property="og:description" content="Book your RF Driver private chauffeur online in Paris and the Oise: simple ride, V-Class Van, long distance, private tour or hourly hire." />
   <meta property="og:image" content="https://rfdriver.fr/hero-accueil-desktop.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:url" content="https://rfdriver.fr/en/reservation.html" />
+  <meta property="og:url" content="https://rfdriver.fr/en/reservation" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:locale:alternate" content="fr_FR" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Online Booking | RF Driver" />
-  <meta name="twitter:description" content="Book your private chauffeur online in Paris, the Oise and across France. Instant calculation, secure payment." />
+  <meta name="twitter:description" content="Book your RF Driver private chauffeur online in Paris and the Oise: simple ride, V-Class Van, long distance, private tour or hourly hire." />
   <meta name="twitter:image" content="https://rfdriver.fr/hero-accueil-desktop.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,48 +34,77 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "TaxiService",
-    "name": "RF Driver",
-    "image": "https://rfdriver.fr/hero-accueil-desktop.jpg",
-    "url": "https://rfdriver.fr/en/reservation.html",
-    "telephone": "+33605717711",
-    "email": "reservation@rfdriver.fr",
-    "priceRange": "25€ - 240€",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Ribécourt-Dreslincourt",
-      "addressRegion": "Oise",
-      "postalCode": "60170",
-      "addressCountry": "FR"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 49.4121941,
-      "longitude": 2.4273078
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Compiègne" },
-      { "@type": "City", "name": "Noyon" },
-      { "@type": "City", "name": "Pierrefonds" },
-      { "@type": "City", "name": "Paris" },
-      { "@type": "AdministrativeArea", "name": "Oise" },
-      { "@type": "AdministrativeArea", "name": "Île-de-France" }
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Services de chauffeur privé",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Standard, Sedan and V-Class Van private chauffeur" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CDG, Orly, Beauvais airport transfer" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Online booking with secure payment" } }
-      ]
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://rfdriver.fr/#organization",
+        "name": "RF Driver",
+        "url": "https://rfdriver.fr/",
+        "telephone": "+33189314349",
+        "email": "contact@rfdriver.fr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ribécourt-Dreslincourt",
+          "addressRegion": "Oise",
+          "postalCode": "60170",
+          "addressCountry": "FR"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://rfdriver.fr/en/reservation#webpage",
+        "url": "https://rfdriver.fr/en/reservation",
+        "name": "Online Booking | RF Driver Private Chauffeur",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://rfdriver.fr/#organization" },
+        "mainEntity": { "@id": "https://rfdriver.fr/en/reservation#service" }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://rfdriver.fr/en/reservation#service",
+        "serviceType": "Private chauffeur service",
+        "provider": { "@id": "https://rfdriver.fr/#organization" },
+        "areaServed": [
+          { "@type": "City", "name": "Compiègne" },
+          { "@type": "City", "name": "Noyon" },
+          { "@type": "City", "name": "Pierrefonds" },
+          { "@type": "City", "name": "Paris" },
+          { "@type": "AdministrativeArea", "name": "Oise" },
+          { "@type": "AdministrativeArea", "name": "Île-de-France" },
+          { "@type": "Country", "name": "France" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Private chauffeur services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Standard, Business and V-Class Van chauffeur service" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CDG, Orly, Beauvais airport transfer" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Long-distance trip" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hourly hire with chauffeur, V-Class Van" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private tour with chauffeur" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Online booking with secure payment, when a rate is available" } }
+          ]
+        }
+      }
+    ]
   }
   </script>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJM3GRQ7QD"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZJM3GRQ7QD');</script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPgCsTjcx84bFd7WvD4ogy3i7QnNutqtA&libraries=places&callback=initAutocomplete"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How do I book my ride?", "acceptedAnswer": { "@type": "Answer", "text": "Calculate your trip at the top of the page, choose your vehicle, then fill in your details and confirm. You can pay online or in the vehicle, according to your preference." } },
+      { "@type": "Question", "name": "How do I receive confirmation?", "acceptedAnswer": { "@type": "Answer", "text": "You receive a confirmation email with all your trip details — date, time, pickup address, vehicle and amount. A notification is also sent to our team." } },
+      { "@type": "Question", "name": "How does airport pickup work?", "acceptedAnswer": { "@type": "Answer", "text": "Your driver waits for you at the terminal exit with a sign bearing your name. Your flight is tracked in real time — in case of delay, the driver's arrival time is adjusted automatically. 30 minutes of complimentary waiting time are included from the indicated pickup time." } },
+      { "@type": "Question", "name": "What payment methods are accepted?", "acceptedAnswer": { "@type": "Answer", "text": "Secure online card payment is available via Stripe. You can also choose to pay your driver directly by card or cash." } },
+      { "@type": "Question", "name": "What is the cancellation policy?", "acceptedAnswer": { "@type": "Answer", "text": "Free cancellation up to 24 hours before departure — full refund. Between 6 and 24 hours before departure: 50% refund. Less than 6 hours before departure: no refund." } },
+      { "@type": "Question", "name": "Can I change my booking?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, contact us by phone or WhatsApp as soon as possible to change the time, address or vehicle for your booking." } }
+    ]
+  }
+  </script>
+  <script src="/calculator-core.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDga6i4T1TPze8qkjiJna-pE8sC7_AjN50&libraries=places&callback=initAutocomplete"></script>
 
   <style>
     :root { --gold:#C9A84C; --gold-light:#E2C97E; --bg:#E3E8E9; --bg2:#D6DDE0; --dark:#263238; --dark2:#37474F; --white:#FFFFFF; --border:rgba(38,50,56,0.12); }
@@ -84,7 +114,7 @@
     img, table { max-width:100%; }
     header { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:13px 48px; background:var(--dark); backdrop-filter:blur(10px); border-bottom:1px solid rgba(201,168,76,0.2); }
     .logo { display:flex; align-items:center; gap:10px; text-decoration:none; }
-    .logo img { height:42px; width:auto; }
+    .logo img { height:62px; width:auto; }
     nav { display:flex; align-items:center; gap:24px; }
     nav a { color:#F4F0E8; text-decoration:none; font-size:0.72rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; opacity:0.6; }
     nav a:hover, nav a.active { opacity:1; color:var(--gold); }
@@ -129,6 +159,12 @@
     .calc-result-label { font-size:0.62rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:var(--dark); opacity:0.5; margin-bottom:6px; }
     .calc-result-price { font-size:2.2rem; font-weight:700; color:var(--gold); line-height:1; }
     .calc-result-detail { font-size:0.78rem; color:var(--dark2); opacity:0.6; margin-top:4px; }
+    .mode-tabs { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:22px; }
+    .mode-tab { flex:1; min-width:120px; padding:10px 12px; font-size:0.68rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; text-align:center; background:var(--bg); color:var(--dark2); border:1.5px solid var(--border); border-radius:6px; cursor:pointer; font-family:'Raleway',sans-serif; }
+    .mode-tab.active { background:var(--gold); color:#000; border-color:var(--gold); }
+    .mode-panel { display:none; }
+    .mode-panel.active { display:block; }
+    .quote-note { font-size:0.78rem; color:var(--dark2); opacity:0.65; line-height:1.6; margin-top:6px; }
     .resa-section { padding:8px 48px 56px; background:var(--bg); display:none; }
     .resa-section.show { display:block; }
     .resa-wrap { max-width:780px; margin:0 auto; background:var(--white); padding:32px; border-radius:8px; }
@@ -138,10 +174,13 @@
     .resa-recap-grid span { font-weight:700; color:var(--dark); }
     .resa-title { font-size:1.2rem; font-weight:700; color:var(--dark); margin-bottom:20px; }
     .resa-form { display:flex; flex-direction:column; gap:14px; }
-    .resa-grid2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    .resa-grid2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; width:100%; min-width:0; }
     .resa-field { display:flex; flex-direction:column; gap:6px; }
     .resa-field label { font-size:0.65rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--dark); opacity:0.55; }
-    .resa-field input, .resa-field select, .resa-field textarea { width:100%; padding:11px 14px; border:1.5px solid var(--border); background:var(--bg); color:var(--dark); font-family:'Raleway',sans-serif; font-size:0.85rem; outline:none; border-radius:4px; }
+    fieldset.resa-field { border:none; margin:0; padding:0; }
+    fieldset.resa-field legend { font-size:0.65rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--dark); opacity:0.55; padding:0; }
+    .resa-field input, .resa-field select, .resa-field textarea { width:100%; min-width:0; max-width:100%; box-sizing:border-box; padding:11px 14px; border:1.5px solid var(--border); background:var(--bg); color:var(--dark); font-family:'Raleway',sans-serif; font-size:0.85rem; outline:none; border-radius:4px; }
+    .resa-field input[type="date"], .resa-field input[type="time"] { min-height:44px; display:block; width:100%; min-width:0; max-width:100%; -webkit-appearance:none; appearance:none; }
     .resa-field input:focus, .resa-field select:focus, .resa-field textarea:focus { border-color:var(--gold); }
     .resa-field textarea { resize:vertical; min-height:70px; }
     .payment-choice { display:flex; flex-direction:column; gap:10px; margin-top:12px; }
@@ -159,9 +198,10 @@
     .faq { padding:56px 48px; background:var(--bg); }
     .faq h2 { font-size:clamp(1.5rem,3vw,2rem); font-weight:700; color:var(--dark); margin-bottom:8px; }
     .faq-list { margin-top:32px; max-width:780px; }
-    .faq-item { border-bottom:1px solid var(--border); padding:18px 0; cursor:pointer; }
-    .faq-question { font-size:0.9rem; font-weight:600; color:var(--dark); display:flex; justify-content:space-between; align-items:center; gap:16px; margin:0; }
-    .faq-question span { color:var(--gold); font-size:1.1rem; flex-shrink:0; }
+    .faq-item { border-bottom:1px solid var(--border); padding:18px 0; }
+    .faq-question { all:unset; display:flex; width:100%; box-sizing:border-box; font-size:0.9rem; font-weight:600; color:var(--dark); justify-content:space-between; align-items:center; gap:16px; margin:0; cursor:pointer; font-family:'Raleway',sans-serif; }
+    .faq-question:focus-visible { outline:2px solid var(--gold); outline-offset:3px; border-radius:3px; }
+    .faq-question span { color:var(--gold); font-size:1.1rem; flex-shrink:0; transition:transform 0.2s; }
     .faq-answer { font-size:0.84rem; color:var(--dark2); opacity:0.7; line-height:1.8; margin-top:10px; display:none; }
     .faq-item.open .faq-answer { display:block; }
     .faq-item.open .faq-question span { transform:rotate(45deg); }
@@ -217,87 +257,224 @@
       .ai-chat { bottom:140px; right:14px; }
     }
   </style>
+  <script>(function(){var d=new Date(),m=d.getMonth(),j=d.getDate();if(m===11||(m===0&&j<=7)||/[?&]fetes=1/.test(location.search))document.documentElement.classList.add('fetes-on');})();</script>
+  <style>
+    html.fetes-on body{margin-top:30px!important;}
+    html.fetes-on header{top:30px!important;}
+    html.fetes-on .success-msg{top:120px;}
+    #rf-fetes{position:fixed;top:0;left:0;right:0;height:30px;z-index:150;overflow:hidden;background:#C9A84C;color:#1E272C;display:flex;align-items:center;font-family:'Raleway',sans-serif;font-size:0.74rem;font-weight:600;letter-spacing:0.03em;white-space:nowrap;}
+    #rf-fetes .rf-fetes-piste{display:flex;width:max-content;animation:rfFetes 60s linear infinite;}
+    #rf-fetes .rf-fetes-item{padding:0 48px;}
+    @keyframes rfFetes{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+    @media (prefers-reduced-motion:reduce){#rf-fetes .rf-fetes-piste{animation:none;}}
+  </style>
+  <script src="/bandeau-fetes.js" defer></script>
+  <script src="/cookies.js" defer></script>
 </head>
 <body>
 
 <header>
-  <a href="/en/" class="logo"><img src="/logo.png" alt="RF Driver — Chauffeur Privé Oise" /></a>
+  <a href="/en" class="logo"><img src="/logo.png" alt="RF Driver — Private Chauffeur Oise" /></a>
   <nav>
-    <a href="/en/">Home</a>
-    <a href="/en/services.html">Services</a>
-    <a href="/en/vtc.html">Private Chauffeur</a>
-    <a href="/en/reservation.html" class="active">Booking</a>
-    <a href="/en/contact.html">Contact</a>
+    <a href="/en">Home</a>
+    <a href="/en/services">Services</a>
+    <a href="/en/vtc">Private Driver</a>
+    <a href="/en/vtc-compiegne">Compi&egrave;gne &amp; Noyon</a>
+    <a href="/en/reservation" class="active">Booking</a>
+    <a href="/en/contact">Contact</a>
   </nav>
   <div class="header-right">
-    <div class="flags"><a href="/reservation.html" title="Fran&ccedil;ais" style="opacity:0.4;">&#127467;&#127479;</a><a href="/en/reservation.html" title="English">&#127468;&#127463;</a></div>
-    <a href="tel:+33605717711" class="btn-call">06 05 71 77 11</a>
+    <div class="flags"><a href="/reservation" title="Fran&ccedil;ais">&#127467;&#127479;</a><a href="/en/reservation" title="English" style="opacity:0.4;">&#127468;&#127463;</a></div>
+    <a href="tel:+33189314349" class="btn-call">01 89 31 43 49</a>
   </div>
   <div class="header-right-mobile">
-    <div class="flags"><a href="/reservation.html" title="Fran&ccedil;ais" style="opacity:0.4;">&#127467;&#127479;</a><a href="/en/reservation.html" title="English">&#127468;&#127463;</a></div>
+    <div class="flags"><a href="/reservation" title="Fran&ccedil;ais">&#127467;&#127479;</a><a href="/en/reservation" title="English" style="opacity:0.4;">&#127468;&#127463;</a></div>
     <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
   </div>
 </header>
 
 <div class="mobile-nav" id="mobileNav">
   <button class="mobile-close" onclick="toggleMenu()">&#x2715;</button>
-  <a href="/en/" onclick="toggleMenu()">Home</a>
-  <a href="/en/services.html" onclick="toggleMenu()">Services</a>
-  <a href="/en/vtc.html" onclick="toggleMenu()">Private Chauffeur</a>
-  <a href="/en/reservation.html" onclick="toggleMenu()">Booking</a>
-  <a href="/en/contact.html" onclick="toggleMenu()">Contact</a>
-  <a href="tel:+33605717711" style="color:var(--gold);opacity:1;">06 05 71 77 11</a>
+  <a href="/en" onclick="toggleMenu()">Home</a>
+  <a href="/en/services" onclick="toggleMenu()">Services</a>
+  <a href="/en/vtc" onclick="toggleMenu()">Private Driver</a>
+  <a href="/en/vtc-compiegne" onclick="toggleMenu()">Compi&egrave;gne &amp; Noyon</a>
+  <a href="/en/reservation" onclick="toggleMenu()">Booking</a>
+  <a href="/en/contact" onclick="toggleMenu()">Contact</a>
+  <a href="tel:+33189314349" style="color:var(--gold);opacity:1;">01 89 31 43 49</a>
 </div>
 
 <section class="hero">
   <div class="hero-wrap">
     <p class="sec-label">RF Driver — Booking</p>
-    <h1>Book your journey</h1>
+    <h1>Book your ride</h1>
     <div class="gold-bar"></div>
-    <p class="hero-txt">Calculate your journey, choose your vehicle and confirm your booking in just a few minutes. Immediate confirmation, secure payment.</p>
-    <a href="/en/vtc.html#calculateur" class="hero-link">See our rates and packages &rarr;</a>
+    <p class="hero-txt">Calculate your trip and send your request in minutes. Online rate when available, a personalized quote depending on the service, and secure payment.</p>
+    <a href="/en/vtc#calculateur" class="hero-link">See our rates and packages &rarr;</a>
   </div>
 </section>
 
 <section class="calculateur" id="calculateur">
   <div class="calc-wrap">
+    <div class="mode-tabs" id="modeTabs">
+      <button type="button" class="mode-tab active" data-mode="simple" onclick="switchMode('simple')">Simple ride</button>
+      <button type="button" class="mode-tab" data-mode="longue-distance" onclick="switchMode('longue-distance')">Long distance</button>
+      <button type="button" class="mode-tab" data-mode="mise-a-disposition" onclick="switchMode('mise-a-disposition')">Hourly hire</button>
+      <button type="button" class="mode-tab" data-mode="circuit" onclick="switchMode('circuit')">Private tour</button>
+    </div>
     <p class="sec-label">Step 1</p>
-    <h2 class="calc-title">Calculate your journey</h2>
-    <p class="calc-sub">Enter your addresses, choose your vehicle and get your price instantly.</p>
-    <div class="calc-grid">
-      <div class="calc-field"><label>Departure address *</label><input type="text" id="calc-depart" placeholder="E.g.: Compi&egrave;gne, Oise" /></div>
-      <div class="calc-field"><label>Arrival address *</label><input type="text" id="calc-arrivee" placeholder="E.g.: Terminal 2E CDG" /></div>
-    </div>
-    <div class="calc-grid">
-      <div class="calc-field"><label>Vehicle *</label>
-        <select id="calc-vehicule" onchange="updateAttenteDisplay()">
-          <option value="eco">Standard</option><option value="berline">Sedan</option><option value="van">V-Class Van</option>
-        </select>
+    <h2 class="calc-title" id="calcTitle">Calculate your trip</h2>
+    <p class="calc-sub" id="calcSub">Enter your addresses, choose your vehicle and get your price instantly.</p>
+
+    <div class="mode-panel active" id="mode-simple">
+      <div class="calc-grid">
+        <div class="calc-field"><label for="calc-depart">Pickup address *</label><input type="text" id="calc-depart" placeholder="e.g.: Compi&egrave;gne, Oise" /></div>
+        <div class="calc-field"><label for="calc-arrivee">Drop-off address *</label><input type="text" id="calc-arrivee" placeholder="e.g.: Terminal 2E CDG" /></div>
       </div>
-      <div class="calc-field"><label>Journey type *</label>
-        <select id="calc-type"><option value="simple">One-way</option><option value="aller-retour">Round trip</option></select>
+      <div class="calc-grid">
+        <div class="calc-field"><label for="calc-vehicule">Vehicle *</label>
+          <select id="calc-vehicule" onchange="updateAttenteDisplay(); invalidateCalcResult();">
+            <option value="eco">Standard</option><option value="berline">Business</option><option value="van">V-Class Van</option>
+          </select>
+        </div>
+        <div class="calc-field"><label for="calc-type">Trip type *</label>
+          <select id="calc-type" onchange="invalidateCalcResult();"><option value="simple">One way</option><option value="aller-retour">Round trip</option></select>
+        </div>
       </div>
-    </div>
-    <div class="calc-grid">
-      <div class="calc-field"><label>Waiting time (optional)</label>
-        <select id="calc-attente" onchange="updateAttenteDisplay()">
-          <option value="0">No waiting</option><option value="5">5 min</option><option value="10">10 min</option><option value="15">15 min</option>
-          <option value="30">30 min</option><option value="45">45 min</option><option value="60">1 hour</option><option value="90">1h30</option><option value="120">2 hours</option><option value="150">2h30</option><option value="180">3 hours</option>
-        </select>
+      <div class="calc-grid">
+        <div class="calc-field"><label for="calc-attente">Waiting time (optional)</label>
+          <select id="calc-attente" onchange="updateAttenteDisplay(); invalidateCalcResult();">
+            <option value="0">No wait</option><option value="5">5 min</option><option value="10">10 min</option><option value="15">15 min</option>
+            <option value="30">30 min</option><option value="45">45 min</option><option value="60">1 hour</option><option value="90">1h 30</option><option value="120">2 hours</option><option value="150">2h 30</option><option value="180">3 hours</option>
+          </select>
+        </div>
+        <div class="calc-field"></div>
       </div>
-      <div class="calc-field"></div>
+      <button class="btn-primary" onclick="calculerTrajet()">Calculate price</button>
+      <p class="calc-min-note" style="font-size:0.76rem;color:var(--dark2);opacity:0.8;margin:10px 0 0;line-height:1.5;">Minimum fare excluding fixed-price packages: Standard &euro;30 &middot; Business &euro;40 &middot; V-Class Van &euro;60.</p>
     </div>
-    <button class="btn-primary" onclick="calculerTrajet()">Calculate the price</button>
+
+    <div class="mode-panel" id="mode-longue-distance">
+      <div class="calc-grid">
+        <div class="calc-field"><label for="ld-depart">Pickup address *</label><input type="text" id="ld-depart" placeholder="e.g.: Compi&egrave;gne, Oise" /></div>
+        <div class="calc-field"><label for="ld-destination">Destination *</label>
+          <select id="ld-destination" onchange="document.getElementById('ld-destination-autre-field').style.display = this.value==='autre' ? 'flex' : 'none';">
+            <option value="" selected disabled>Choose your destination</option>
+            <option value="cote-azur">French Riviera (Nice, Cannes, Saint-Tropez...)</option>
+            <option value="montagne">Mountains / ski resorts (Courchevel, Val Thorens, Meg&egrave;ve...)</option>
+            <option value="bruxelles">Brussels</option>
+            <option value="lille">Lille</option>
+            <option value="amsterdam">Amsterdam</option>
+            <option value="zurich">Zurich</option>
+            <option value="autre">Other destination (please specify)</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-grid" id="ld-destination-autre-field" style="display:none;">
+        <div class="calc-field"><label for="ld-destination-autre">Please specify your destination</label><input type="text" id="ld-destination-autre" placeholder="e.g.: Bordeaux, Lyon, Barcelona..." /></div>
+        <div class="calc-field"></div>
+      </div>
+      <div class="calc-grid">
+        <div class="calc-field"><label for="ld-vehicule">Vehicle *</label>
+          <select id="ld-vehicule"><option value="eco">Standard</option><option value="berline">Business</option><option value="van" selected>V-Class Van</option></select>
+        </div>
+        <div class="calc-field"><label for="ld-date">Preferred date</label><input type="date" id="ld-date" /></div>
+      </div>
+      <div class="calc-grid">
+        <div class="calc-field"><label for="ld-passagers">Passengers</label>
+          <select id="ld-passagers"><option value="1">1 passenger</option><option value="2">2 passengers</option><option value="3">3 passengers</option><option value="4">4 passengers</option><option value="5">5 passengers</option><option value="6">6 passengers</option><option value="7">7 passengers</option></select>
+        </div>
+        <div class="calc-field"><label for="ld-bagages">Luggage</label>
+          <select id="ld-bagages"><option value="non">No luggage</option><option value="cabine">Carry-on bag</option><option value="soute">Checked bag</option><option value="multiple">Multiple bags</option></select>
+        </div>
+      </div>
+      <div class="calc-field" style="margin-bottom:14px;"><label for="ld-message">Message (optional)</label><textarea id="ld-message" placeholder="Details about your trip, timing, stops..." style="width:100%;padding:11px 14px;border:1.5px solid var(--border);background:var(--bg);color:var(--dark);font-family:'Raleway',sans-serif;font-size:0.85rem;outline:none;border-radius:4px;resize:vertical;min-height:70px;"></textarea></div>
+      <p class="quote-note">Long-distance trips are quoted on request — no automatic fixed price. Your request is sent to us directly, and an RF Driver advisor will get back to you promptly.</p>
+      <button class="btn-primary" style="margin-top:14px;" onclick="calculerLongueDistance()">Continue my request</button>
+    </div>
+
+    <div class="mode-panel" id="mode-mise-a-disposition">
+      <div class="calc-grid">
+        <div class="calc-field"><label for="mad-lieu">Pickup location *</label><input type="text" id="mad-lieu" placeholder="e.g.: Compi&egrave;gne, Oise" /></div>
+        <div class="calc-field"><label for="mad-vehicule">Vehicle *</label>
+          <select id="mad-vehicule" onchange="updateMadKmOptions()">
+            <option value="berline">Business</option><option value="van">V-Class Van</option><option value="first">First Class (on quote)</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-grid">
+        <div class="calc-field"><label for="mad-duree">Duration *</label>
+          <select id="mad-duree" onchange="updateMadKmOptions()">
+            <option value="3">3 hours — 60 km included — €210 (daytime rate)</option>
+            <option value="5">5 hours — 100 km included — €350 (daytime rate)</option>
+            <option value="10">10 hours — 200 km included — €700 (daytime rate)</option>
+          </select>
+        </div>
+        <div class="calc-field"><label for="mad-km-supp">Additional mileage (optional)</label>
+          <select id="mad-km-supp">
+            <option value="0">None</option>
+            <option value="20">+20 km</option>
+            <option value="50">+50 km</option>
+            <option value="100">+100 km</option>
+          </select>
+        </div>
+      </div>
+      <p class="quote-note" style="margin-top:-6px;margin-bottom:14px;">Estimate only — actual mileage will be confirmed with you before pickup.</p>
+      <p class="quote-note" style="margin-top:-6px;margin-bottom:14px;">From 9&nbsp;pm to 6&nbsp;am: &euro;10/hour surcharge in Business and V-Class Van. First Class on quote, from 5 hours.</p>
+      <div class="calc-grid">
+        <div class="calc-field"><label for="mad-date">Date *</label><input type="date" id="mad-date" /></div>
+        <div class="calc-field"><label for="mad-heure">Start time *</label><input type="time" id="mad-heure" /></div>
+      </div>
+      <div class="calc-grid">
+        <div class="calc-field"><label for="mad-passagers">Passengers</label>
+          <select id="mad-passagers"><option value="1">1 passenger</option><option value="2">2 passengers</option><option value="3">3 passengers</option><option value="4">4 passengers</option><option value="5">5 passengers</option><option value="6">6 passengers</option><option value="7">7 passengers</option></select>
+        </div>
+        <div class="calc-field"><label for="mad-bagages">Luggage</label>
+          <select id="mad-bagages"><option value="non">No luggage</option><option value="cabine">Carry-on bag</option><option value="soute">Checked bag</option><option value="multiple">Multiple bags</option></select>
+        </div>
+      </div>
+      <button class="btn-primary" onclick="calculerMiseADisposition()">Calculate price</button>
+    </div>
+
+    <div class="mode-panel" id="mode-circuit">
+      <div class="calc-grid">
+        <div class="calc-field"><label for="circuit-choix">Desired tour *</label>
+          <select id="circuit-choix">
+            <option value="" selected disabled>Choose your tour</option>
+            <option value="paris">Iconic Paris</option>
+            <option value="chateaux-oise">Oise Castles</option>
+            <option value="versailles">Versailles and surroundings</option>
+            <option value="disney-asterix">Disneyland Paris or Parc Ast&eacute;rix</option>
+            <option value="shopping-paris">Shopping in Paris</option>
+            <option value="sur-mesure">Custom day</option>
+          </select>
+        </div>
+        <div class="calc-field"><label for="circuit-lieu">Pickup location *</label><input type="text" id="circuit-lieu" placeholder="e.g.: Compi&egrave;gne, Oise" /></div>
+      </div>
+      <div class="calc-grid">
+        <div class="calc-field"><label for="circuit-duree">Estimated duration</label>
+          <select id="circuit-duree"><option value="demi-journee">Half day</option><option value="journee">Full day</option></select>
+        </div>
+        <div class="calc-field"><label for="circuit-date">Preferred date</label><input type="date" id="circuit-date" /></div>
+      </div>
+      <div class="calc-field" style="margin-bottom:10px;"><label for="circuit-passagers">Passengers</label>
+        <select id="circuit-passagers"><option value="1">1 passenger</option><option value="2">2 passengers</option><option value="3">3 passengers</option><option value="4">4 passengers</option><option value="5">5 passengers</option><option value="6">6 passengers</option><option value="7">7 passengers</option></select>
+      </div>
+      <div class="calc-field" style="margin-bottom:14px;"><label for="circuit-message">Please specify your tour idea (optional)</label><textarea id="circuit-message" placeholder="Preferred places, stops, personal ideas..." style="width:100%;padding:11px 14px;border:1.5px solid var(--border);background:var(--bg);color:var(--dark);font-family:'Raleway',sans-serif;font-size:0.85rem;outline:none;border-radius:4px;resize:vertical;min-height:70px;"></textarea></div>
+      <p class="quote-note">Private tours are quoted on request — no fixed price imposed. Your request is sent to us directly, and an RF Driver advisor will get back to you promptly.</p>
+      <button class="btn-primary" style="margin-top:14px;" onclick="calculerCircuit()">Continue my request</button>
+    </div>
+
     <div class="calc-result" id="calc-result">
       <div class="calc-result-label">Estimated price</div>
       <div class="calc-result-price" id="calc-price">— €</div>
       <div class="calc-result-detail" id="calc-detail"></div>
-      <div id="calc-airport-msg" style="display:none;background:#FFF8E1;border-left:3px solid var(--gold);padding:12px 16px;border-radius:4px;margin-top:14px;font-size:0.82rem;color:var(--dark);font-weight:600;">&#9992;&#65039; 30 minutes of waiting time included free from the indicated pickup time.</div>
-      <a href="https://wa.me/33605717711" target="_blank" class="btn-wa" id="calc-wa-btn" style="display:none;margin-top:14px;">
+      <div id="calc-airport-msg" style="display:none;background:#FFF8E1;border-left:3px solid var(--gold);padding:12px 16px;border-radius:4px;margin-top:14px;font-size:0.82rem;color:var(--dark);font-weight:600;">&#9992;&#65039; 30 minutes of complimentary waiting time from the indicated pickup time.</div>
+      <a href="https://wa.me/33605717711" target="_blank" rel="noopener" class="btn-wa" id="calc-wa-btn" style="display:none;margin-top:14px;">
         <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
         <span class="wa-label">Request a quote</span>
       </a>
-      <a href="#" id="calc-invert-btn" onclick="inverserTrajet(event)" style="display:inline-block;margin-top:12px;font-size:0.76rem;color:var(--dark2);opacity:0.6;text-decoration:none;font-weight:600;">&#8646; Reverse the journey</a>
+      <a href="#" id="calc-invert-btn" onclick="inverserTrajet(event)" style="display:inline-block;margin-top:12px;font-size:0.76rem;color:var(--dark2);opacity:0.6;text-decoration:none;font-weight:600;">&#8646; Swap addresses</a>
     </div>
   </div>
 </section>
@@ -305,12 +482,12 @@
 <section class="resa-section" id="resa-section">
   <div class="resa-wrap">
     <p class="sec-label">Step 2</p>
-    <h2 class="resa-title">Your information</h2>
+    <h2 class="resa-title">Your details</h2>
     <div class="resa-recap">
-      <strong>Journey summary</strong>
+      <strong>Trip summary</strong>
       <div class="resa-recap-grid">
-        <div>Departure: <span id="rf-depart">—</span></div>
-        <div>Arrival: <span id="rf-arrivee">—</span></div>
+        <div>Pickup: <span id="rf-depart">—</span></div>
+        <div>Drop-off: <span id="rf-arrivee">—</span></div>
         <div>Vehicle: <span id="rf-vehicule">—</span></div>
         <div>Type: <span id="rf-type">—</span></div>
         <div>Estimated price: <span id="rf-prix">—</span></div>
@@ -318,40 +495,44 @@
     </div>
     <form class="resa-form" id="resaForm">
       <div class="resa-grid2">
-        <div class="resa-field"><label>Last name *</label><input type="text" id="nom" placeholder="Your last name" required /></div>
-        <div class="resa-field"><label>First name *</label><input type="text" id="prenom" placeholder="Your first name" required /></div>
+        <div class="resa-field"><label for="nom">Last name *</label><input type="text" id="nom" placeholder="Your last name" required /></div>
+        <div class="resa-field"><label for="prenom">First name *</label><input type="text" id="prenom" placeholder="Your first name" required /></div>
       </div>
       <div class="resa-grid2">
-        <div class="resa-field"><label>Phone *</label><input type="tel" id="tel" placeholder="06 XX XX XX XX" required /></div>
-        <div class="resa-field"><label>Email *</label><input type="email" id="email" placeholder="your@email.com" required /></div>
+        <div class="resa-field"><label for="tel">Phone *</label><input type="tel" id="tel" placeholder="+33 6 XX XX XX XX" required /></div>
+        <div class="resa-field"><label for="email">Email *</label><input type="email" id="email" placeholder="your@email.com" required /></div>
       </div>
       <div class="resa-grid2">
-        <div class="resa-field"><label>Journey date *</label><input type="date" id="date" required /></div>
-        <div class="resa-field"><label>Pickup time *</label><input type="time" id="heure" required /></div>
+        <div class="resa-field"><label for="date">Trip date *</label><input type="date" id="date" required /></div>
+        <div class="resa-field"><label for="heure">Pickup time *</label><input type="time" id="heure" required /></div>
+      </div>
+      <div class="resa-grid2" id="retourFields" style="display:none;">
+        <div class="resa-field"><label for="dateRetour">Return date *</label><input type="date" id="dateRetour" /></div>
+        <div class="resa-field"><label for="heureRetour">Return time *</label><input type="time" id="heureRetour" /></div>
       </div>
       <div class="resa-grid2">
-        <div class="resa-field"><label>Number of passengers</label>
+        <div class="resa-field"><label for="passagers">Number of passengers</label>
           <select id="passagers"><option value="1">1 passenger</option><option value="2">2 passengers</option><option value="3">3 passengers</option><option value="4">4 passengers</option><option value="5">5 passengers</option><option value="6">6 passengers</option><option value="7">7 passengers</option></select>
         </div>
-        <div class="resa-field"><label>Luggage</label>
-          <select id="bagages"><option value="non">No luggage</option><option value="cabine">Cabin luggage</option><option value="soute">Checked luggage</option><option value="multiple">Multiple luggage</option></select>
+        <div class="resa-field"><label for="bagages">Luggage</label>
+          <select id="bagages"><option value="non">No luggage</option><option value="cabine">Carry-on bag</option><option value="soute">Checked bag</option><option value="multiple">Multiple bags</option></select>
         </div>
       </div>
-      <div class="resa-field"><label>Flight number (if applicable)</label><input type="text" id="vol" placeholder="E.g.: AF1234" /></div>
-      <div class="resa-field"><label>Message (optional)</label><textarea id="message" placeholder="Additional information..."></textarea></div>
-      <div class="resa-field">
-        <label>Payment method *</label>
+      <div class="resa-field"><label for="vol">Flight number (if applicable)</label><input type="text" id="vol" placeholder="e.g.: AF1234" /></div>
+      <div class="resa-field"><label for="message">Message (optional)</label><textarea id="message" placeholder="Additional information..."></textarea></div>
+      <fieldset class="resa-field" id="paiementField">
+        <legend>Payment method *</legend>
         <div class="payment-choice">
           <label class="payment-option selected" onclick="selectPayment('ligne', this)">
             <input type="radio" name="paiement" value="ligne" checked />
-            <div><div class="payment-option-label">Pay online</div><div class="payment-option-sub">Secure card payment via Stripe. Immediate confirmation.</div></div>
+            <div><div class="payment-option-label">Pay online</div><div class="payment-option-sub">Secure card payment via Stripe. Instant confirmation.</div></div>
           </label>
           <label class="payment-option" onclick="selectPayment('bord', this)">
             <input type="radio" name="paiement" value="bord" />
-            <div><div class="payment-option-label">Pay on board</div><div class="payment-option-sub">Bookings with online payment are processed first. You can still choose to pay directly with your chauffeur.</div></div>
+            <div><div class="payment-option-label">Pay in the vehicle</div><div class="payment-option-sub">Bookings paid online are processed as a priority. You can still choose to pay your driver directly.</div></div>
           </label>
         </div>
-      </div>
+      </fieldset>
       <button type="button" class="btn-primary btn-confirm" id="btn-confirm" onclick="confirmerReservation()">Confirm booking</button>
     </form>
   </div>
@@ -359,10 +540,10 @@
 
 <div class="avis-bar">
   <span class="avis-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-  <strong class="google-rating">5/5</strong>
-  <span class="google-reviews-count">9 reviews</span>
+  <strong class="google-rating"></strong>
+  <span class="google-reviews-count"></span>
   <span>verified on Google</span>
-  <a href="https://g.page/r/CcpAITPBBTT0EBE/review" target="_blank">Leave a review &rarr;</a>
+  <a href="https://g.page/r/CcpAITPBBTT0EBE/review" target="_blank" rel="noopener">Leave a review &rarr;</a>
 </div>
 
 <section class="faq">
@@ -371,29 +552,29 @@
     <h2>Everything you need to know</h2>
     <div class="gold-bar"></div>
     <div class="faq-list">
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <h3 class="faq-question">How do I book my journey? <span>+</span></h3>
-        <div class="faq-answer">Calculate your journey at the top of the page, choose your vehicle, then complete your information and confirm. You can pay online or on board, according to your preference.</div>
+      <div class="faq-item" id="faq-1">
+        <h3><button class="faq-question" onclick="toggleFaq('faq-1')" aria-expanded="false" aria-controls="faq-1-answer">How do I book my ride? <span>+</span></button></h3>
+        <div class="faq-answer" id="faq-1-answer">Calculate your trip at the top of the page, choose your vehicle, then fill in your details and confirm. You can pay online or in the vehicle, according to your preference.</div>
       </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <h3 class="faq-question">How do I receive confirmation? <span>+</span></h3>
-        <div class="faq-answer">You will receive a confirmation email with all your journey details — date, time, pickup address, vehicle and amount. A notification is also sent to our team.</div>
+      <div class="faq-item" id="faq-2">
+        <h3><button class="faq-question" onclick="toggleFaq('faq-2')" aria-expanded="false" aria-controls="faq-2-answer">How do I receive confirmation? <span>+</span></button></h3>
+        <div class="faq-answer" id="faq-2-answer">You receive a confirmation email with all your trip details — date, time, pickup address, vehicle and amount. A notification is also sent to our team.</div>
       </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <h3 class="faq-question">How does airport pickup work? <span>+</span></h3>
-        <div class="faq-answer">Your chauffeur waits for you at the terminal exit with a sign bearing your name. Your flight is tracked in real time — in case of delay, your chauffeur's arrival time is automatically adjusted. 30 minutes of waiting time are included free from the indicated pickup time.</div>
+      <div class="faq-item" id="faq-3">
+        <h3><button class="faq-question" onclick="toggleFaq('faq-3')" aria-expanded="false" aria-controls="faq-3-answer">How does airport pickup work? <span>+</span></button></h3>
+        <div class="faq-answer" id="faq-3-answer">Your driver waits for you at the terminal exit with a sign bearing your name. Your flight is tracked in real time — in case of delay, the driver's arrival time is adjusted automatically. 30 minutes of complimentary waiting time are included from the indicated pickup time.</div>
       </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <h3 class="faq-question">What payment methods are accepted? <span>+</span></h3>
-        <div class="faq-answer">Secure online card payment is available via Stripe. You can also choose to pay directly with your chauffeur by card or cash.</div>
+      <div class="faq-item" id="faq-4">
+        <h3><button class="faq-question" onclick="toggleFaq('faq-4')" aria-expanded="false" aria-controls="faq-4-answer">What payment methods are accepted? <span>+</span></button></h3>
+        <div class="faq-answer" id="faq-4-answer">Secure online card payment is available via Stripe. You can also choose to pay your driver directly by card or cash.</div>
       </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <h3 class="faq-question">What is the cancellation policy? <span>+</span></h3>
-        <div class="faq-answer">Free cancellation up to 24 hours before departure — full refund. Between 6 and 24 hours before departure: 50% refund. Less than 6 hours before departure: no refund.</div>
+      <div class="faq-item" id="faq-5">
+        <h3><button class="faq-question" onclick="toggleFaq('faq-5')" aria-expanded="false" aria-controls="faq-5-answer">What is the cancellation policy? <span>+</span></button></h3>
+        <div class="faq-answer" id="faq-5-answer">Free cancellation up to 24 hours before departure — full refund. Between 6 and 24 hours before departure: 50% refund. Less than 6 hours before departure: no refund.</div>
       </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <h3 class="faq-question">Can I modify my booking? <span>+</span></h3>
-        <div class="faq-answer">Yes, contact us by phone or WhatsApp as soon as possible to modify the time, address or vehicle for your booking.</div>
+      <div class="faq-item" id="faq-6">
+        <h3><button class="faq-question" onclick="toggleFaq('faq-6')" aria-expanded="false" aria-controls="faq-6-answer">Can I change my booking? <span>+</span></button></h3>
+        <div class="faq-answer" id="faq-6-answer">Yes, contact us by phone or WhatsApp as soon as possible to change the time, address or vehicle for your booking.</div>
       </div>
     </div>
   </div>
@@ -401,18 +582,18 @@
 
 <section class="cta-final">
   <div class="wrap">
-    <p class="sec-label" style="color:var(--gold);">Need help?</p>
+    <p class="sec-label" style="color:var(--gold);">Need help&nbsp;?</p>
     <h2>Contact <strong>us</strong></h2>
     <p>Our team is available 24/7 by phone or WhatsApp.</p>
     <div class="cta-btns">
-      <a href="tel:+33605717711" class="btn-primary">Call</a>
-      <a href="https://wa.me/33605717711" target="_blank" class="btn-outline">WhatsApp</a>
+      <a href="tel:+33189314349" class="btn-primary">Call</a>
+      <a href="https://wa.me/33605717711" target="_blank" rel="noopener" class="btn-outline">WhatsApp</a>
     </div>
   </div>
 </section>
 
 <div id="footer-placeholder"></div>
-<script>fetch('/en/footer.html').then(r=>r.text()).then(html=>{document.getElementById('footer-placeholder').innerHTML=html;});</script>
+<script>fetch('/en/footer').then(r=>r.text()).then(html=>{document.getElementById('footer-placeholder').innerHTML=html;});</script>
 
 <!-- ASSISTANT IA -->
 <button class="ai-btn" onclick="toggleAiChat()" aria-label="RF Driver Assistant">
@@ -425,14 +606,14 @@
     <button class="ai-chat-close" onclick="toggleAiChat()">&#x2715;</button>
   </div>
   <div class="ai-chat-body" id="aiChatBody">
-    <div class="ai-msg bot">Hello &#128075; I'm the RF Driver assistant. How can I help you?</div>
+    <div class="ai-msg bot">Hello &#128075; I'm the RF Driver assistant. How can I help you&nbsp;?</div>
   </div>
   <div class="ai-chat-footer">
     <div class="ai-chat-input-row">
       <input type="text" id="aiInput" placeholder="Ask your question..." onkeypress="if(event.key==='Enter')sendAiMessage()" />
       <button class="ai-chat-send" onclick="sendAiMessage()">Send</button>
     </div>
-    <a href="https://wa.me/33605717711" target="_blank" class="ai-chat-wa">
+    <a href="https://wa.me/33605717711" target="_blank" rel="noopener" class="ai-chat-wa">
       <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
       Talk to a human on WhatsApp
     </a>
@@ -441,7 +622,12 @@
 
 <script>
   function toggleMenu(){document.getElementById('mobileNav').classList.toggle('open');}
-  function toggleFaq(item){item.classList.toggle('open');}
+  function toggleFaq(id){
+    var item = document.getElementById(id);
+    var btn = item.querySelector('.faq-question');
+    var isOpen = item.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }
   function toggleAiChat(){document.getElementById('aiChat').classList.toggle('open');}
   var aiHistory = [];
   function sendAiMessage(){
@@ -463,7 +649,7 @@
     })
     .then(r=>r.json())
     .then(data=>{
-      var replyText = data.reply || 'Désolé, je n\'ai pas pu répondre. Contactez-nous par WhatsApp.';
+      var replyText = data.reply || 'Sorry, I couldn\'t reply. Please contact us on WhatsApp.';
       var botMsg = document.createElement('div');
       botMsg.className = 'ai-msg bot';
       botMsg.textContent = replyText;
@@ -474,9 +660,10 @@
         var waBtn = document.createElement('a');
         waBtn.href = 'https://wa.me/33605717711?text=' + encodeURIComponent(data.whatsappMessage);
         waBtn.target = '_blank';
+        waBtn.rel = 'noopener';
         waBtn.className = 'ai-chat-wa';
         waBtn.style.marginTop = '6px';
-        waBtn.textContent = 'Send this request on WhatsApp';
+        waBtn.textContent = 'Send this request via WhatsApp';
         body.appendChild(waBtn);
       }
 
@@ -492,7 +679,7 @@
   }
 
   const ATTENTE_MIN_LIST = { '0':0,'5':5,'10':10,'15':15,'30':30,'45':45,'60':60,'90':90,'120':120,'150':150,'180':180 };
-  const ATTENTE_LABELS = { '0':'Aucune attente','5':'5 min','10':'10 min','15':'15 min','30':'30 min','45':'45 min','60':'1 heure','90':'1h30','120':'2 heures','150':'2h30','180':'3 heures' };
+  const ATTENTE_LABELS = { '0':'No wait','5':'5 min','10':'10 min','15':'15 min','30':'30 min','45':'45 min','60':'1 hour','90':'1h 30','120':'2 hours','150':'2h 30','180':'3 hours' };
 
   const ATTENTE_TARIF_HORAIRE_DISPLAY = { 'eco': 35, 'berline': 45, 'van': 60 };
   function updateAttenteDisplay(){
@@ -501,77 +688,293 @@
     const select = document.getElementById('calc-attente');
     Array.from(select.options).forEach(function(opt){
       const min = ATTENTE_MIN_LIST[opt.value];
-      if (min === 0) { opt.text = 'Aucune attente'; return; }
+      if (min === 0) { opt.text = 'No wait'; return; }
       const prix = Math.round((min/60)*tarifHoraire*100)/100;
       opt.text = ATTENTE_LABELS[opt.value] + ' — ' + prix.toFixed(2).replace('.00','') + '€';
     });
   }
 
-  const FORFAITS_OISE = {
-    'pierrefonds': { 'cdg':{'eco':90,'berline':100,'van':130}, 'orly':{'eco':165,'berline':185,'van':230}, 'beauvais':{'eco':125,'berline':150,'van':180}, 'disney':{'eco':130,'berline':150,'van':190} },
-    'compiegne': { 'cdg':{'eco':95,'berline':110,'van':150}, 'orly':{'eco':140,'berline':160,'van':185}, 'beauvais':{'eco':95,'berline':110,'van':150}, 'disney':{'eco':140,'berline':160,'van':180} },
-    'margny': { 'cdg':{'eco':95,'berline':110,'van':150}, 'orly':{'eco':140,'berline':160,'van':185}, 'beauvais':{'eco':95,'berline':110,'van':150}, 'disney':{'eco':140,'berline':160,'van':180} },
-    'thourotte': { 'cdg':{'eco':125,'berline':140,'van':180}, 'orly':{'eco':175,'berline':195,'van':255}, 'beauvais':{'eco':120,'berline':135,'van':165}, 'disney':{'eco':170,'berline':195,'van':245} },
-    'ribecourt': { 'cdg':{'eco':125,'berline':140,'van':180}, 'orly':{'eco':175,'berline':195,'van':255}, 'beauvais':{'eco':120,'berline':135,'van':165}, 'disney':{'eco':170,'berline':195,'van':245} },
-    'noyon': { 'cdg':{'eco':130,'berline':150,'van':190}, 'orly':{'eco':195,'berline':210,'van':275}, 'beauvais':{'eco':130,'berline':150,'van':190}, 'disney':{'eco':195,'berline':225,'van':290} }
-  };
-  const FORFAITS_PARIS = {
-    'paris-paris': {'eco':40,'berline':50,'van':60},
-    'paris-orly': {'eco':45,'berline':60,'van':75},
-    'paris-cdg': {'eco':55,'berline':70,'van':100},
-    'paris-disney': {'eco':70,'berline':90,'van':120},
-    'orly-cdg': {'eco':70,'berline':85,'van':110},
-    'orly-disney': {'eco':65,'berline':80,'van':100},
-    'cdg-disney': {'eco':60,'berline':80,'van':95},
-    'paris-beauvais': {'eco':120,'berline':150,'van':180}
-  };
-  const COURSE_MIN = { 'eco': 25, 'berline': 30, 'van': 45 };
-  const PALIER2_MIN = { 'eco': 30, 'berline': 35, 'van': 50 };
   const ATTENTE_TARIF_HORAIRE = { 'eco': 35, 'berline': 45, 'van': 60 };
-  const TARIFS_KM = { 'eco': 1.60, 'berline': 1.90, 'van': 2.50 };
 
-  const AIRPORT_KEYWORDS_STRONG = ['cdg','terminal','mesnil amelot','mesnil-amelot'];
-  const AIRPORT_KEYWORDS_WEAK = ['charles de gaulle','charles-de-gaulle','gaulle','roissy','tremblay'];
-  function isAirportCDG(addr) {
-    const a = addr.toLowerCase();
-    if (AIRPORT_KEYWORDS_STRONG.some(k=>a.includes(k))) return true;
-    if (AIRPORT_KEYWORDS_WEAK.some(k=>a.includes(k)) && a.includes('aéroport')) return true;
-    return false;
-  }
-  const ORLY_KEYWORDS = ['orly'];
-  const BEAUVAIS_KEYWORDS_STRONG = ['tille','tillé','terminal'];
-  const BEAUVAIS_KEYWORDS_WEAK = ['beauvais'];
-  function isAirportBeauvais(addr) {
-    const a = addr.toLowerCase();
-    if (BEAUVAIS_KEYWORDS_STRONG.some(k=>a.includes(k))) return true;
-    if (BEAUVAIS_KEYWORDS_WEAK.some(k=>a.includes(k)) && a.includes('aéroport')) return true;
-    return false;
-  }
+  // === Détection des aéroports (CDG, Orly, Beauvais) ===
+  // Méthode : priorité aux données du lieu Google Places réellement sélectionné
+  // (coordonnées géographiques, puis nom/types), et reconnaissance textuelle
+  // uniquement en solution de secours si aucun lieu Google n'a été sélectionné.
+
+  // Détection aéroport/Oise retirée d'ici — désormais gérée uniquement par
+  // RFCalculatorCore (calculator-core.js), chargé dans le <head>, commun
+  // aux 4 pages (reservation.html, en/reservation.html, vtc.html, en/vtc.html).
+
   const GARE_KEYWORDS = ['gare du nord','gare de lyon','gare de l\'est','montparnasse','saint lazare','bercy'];
-  const PARIS_KEYWORDS = ['paris','750'];
   const OISE_DEPTS = ['60','80','62','59','02'];
-  const IDF_DEPTS = ['75','77','78','91','92','93','94','95'];
   const ATTENTE_MINUTES = { '0':0,'5':5,'10':10,'15':15,'30':30,'45':45,'60':60,'90':90,'120':120,'150':150,'180':180 };
 
-  function detectDestType(addr){ const a=addr.toLowerCase(); if(ORLY_KEYWORDS.some(k=>a.includes(k)))return'orly'; if(isAirportBeauvais(a))return'beauvais'; if(isAirportCDG(a))return'cdg'; if(GARE_KEYWORDS.some(k=>a.includes(k)))return'gare'; return'autre'; }
-  function detectDepartVille(addr){ const a=addr.toLowerCase(); if(a.includes('pierrefonds'))return'pierrefonds'; if(a.includes('margny'))return'margny'; if(a.includes('compi'))return'compiegne'; if(a.includes('thourotte'))return'thourotte'; if(a.includes('rib')||a.includes('dreslincourt'))return'ribecourt'; if(a.includes('noyon'))return'noyon'; return null; }
-  function isParisDepart(addr){ const a=addr.toLowerCase(); return PARIS_KEYWORDS.some(k=>a.includes(k)); }
-  function detectDepartement(addr){ const match=addr.match(/\b(\d{5})\b/); if(!match)return null; return match[1].substring(0,2); }
 
   let lastCalc = {};
 
+  // Compteur de génération — toute réponse asynchrone (Distance Matrix,
+  // Geocoder) d'un calcul déjà remplacé par un calcul plus récent est
+  // ignorée, jamais affichée. Déclaré ici, TÔT dans le script, avant tout
+  // appel à applyUrlParams() : un paramètre "section" dans l'URL peut
+  // déclencher switchMode() -> invalidateCalcResult() dès le chargement,
+  // et calcGeneration doit déjà exister à ce moment-là.
+  let calcGeneration = 0;
+
+  let pendingAutoCalc = false;
+
+  function invalidateCalcResult() {
+    calcGeneration++;
+    lastCalc = {};
+    const priceEl = document.getElementById('calc-price');
+    const resultEl = document.getElementById('calc-result');
+    if (priceEl) priceEl.textContent = '—';
+    if (resultEl) resultEl.classList.remove('show');
+    const resaSection = document.getElementById('resa-section');
+    if (resaSection) resaSection.classList.remove('show');
+  }
+
+  const MODE_TITLES = {
+    'simple': ['Calculate your trip', 'Enter your addresses, choose your vehicle and get your price instantly.'],
+    'longue-distance': ['Your long-distance trip', 'Describe your trip, we\'ll get back to you with a personalized quote.'],
+    'mise-a-disposition': ['Your hourly hire', 'Choose your vehicle and preferred duration, and get your price instantly.'],
+    'circuit': ['Your private tour', 'Choose a tour or create your own, we\'ll get back to you with a personalized quote.']
+  };
+
+  const DESTINATION_LABELS = {
+    'cote-azur': 'French Riviera (Nice, Cannes, Saint-Tropez...)',
+    'montagne': 'Mountains / ski resorts',
+    'bruxelles': 'Brussels',
+    'lille': 'Lille',
+    'amsterdam': 'Amsterdam',
+    'zurich': 'Zurich'
+  };
+  const CIRCUIT_LABELS = {
+    'paris': 'Iconic Paris',
+    'chateaux-oise': 'Oise Castles',
+    'versailles': 'Versailles and surroundings',
+    'disney-asterix': 'Disneyland Paris or Parc Astérix',
+    'shopping-paris': 'Shopping in Paris',
+    'sur-mesure': 'Custom day'
+  };
+  // Mise à disposition : tarifs, durées, nuit et km supplémentaires dans
+  // calculator-core.js (RFCalculatorCore.resolveMadPrice), partagés avec le
+  // serveur de paiement (api/create-checkout.js).
+
+  let currentMode = 'simple';
+
+  function switchMode(mode) {
+    currentMode = mode;
+    document.querySelectorAll('.mode-tab').forEach(function(t){ t.classList.toggle('active', t.dataset.mode === mode); });
+    document.querySelectorAll('.mode-panel').forEach(function(p){ p.classList.remove('active'); });
+    document.getElementById('mode-' + mode).classList.add('active');
+    if (mode === 'mise-a-disposition') updateMadKmOptions();
+    const titles = MODE_TITLES[mode];
+    document.getElementById('calcTitle').textContent = titles[0];
+    document.getElementById('calcSub').textContent = titles[1];
+    // Invalide aussi tout calcul "simple" encore en vol (Distance Matrix/
+    // Geocoder) — sans ceci, sa réponse pourrait arriver après le
+    // changement de mode et réafficher un ancien résultat par-dessus le
+    // panneau circuit/mise à disposition désormais actif.
+    invalidateCalcResult();
+    const url = new URL(window.location.href);
+    url.searchParams.set('section', mode);
+    window.history.replaceState({}, '', url);
+  }
+
+  function updateMadKmOptions() {
+    const C = RFCalculatorCore;
+    const vehicule = document.getElementById('mad-vehicule').value;
+    const dureeSelect = document.getElementById('mad-duree');
+    const actuelle = dureeSelect.value;
+    const durees = C.MAD_DUREES[vehicule] || [];
+    const tarif = C.MAD_TARIF_HORAIRE[vehicule];
+    dureeSelect.innerHTML = '';
+    durees.forEach(function(d) {
+      const opt = document.createElement('option');
+      opt.value = String(d);
+      opt.text = d + ' hours — ' + (d * C.MAD_KM_PAR_HEURE) + ' km included — ' + (tarif ? '€' + (d * tarif.jour) + ' ' + '(daytime rate)' : 'on quote');
+      dureeSelect.appendChild(opt);
+    });
+    if (durees.indexOf(Number(actuelle)) !== -1) dureeSelect.value = actuelle;
+    const tarifKm = C.MAD_KM_SUPP_TARIF[vehicule];
+    const kmSuppSelect = document.getElementById('mad-km-supp');
+    Array.from(kmSuppSelect.options).forEach(function(opt) {
+      const km = parseInt(opt.value, 10);
+      if (km === 0) { opt.text = 'None'; return; }
+      opt.text = '+' + km + ' km' + (tarifKm ? ' (+€' + (km * tarifKm) + ')' : '');
+    });
+  }
+
+  // VEHICULE_LABELS est défini plus bas (avant afficherFormulaire) mais déjà présent
+  // en mémoire au moment où ces fonctions sont réellement appelées (après clic utilisateur).
+  function calculerLongueDistance() {
+    const depart = document.getElementById('ld-depart').value.trim();
+    const destSelect = document.getElementById('ld-destination');
+    const destValue = destSelect.value;
+    if (!destValue) { alert('Please choose a destination.'); return; }
+    const destination = destValue === 'autre'
+      ? document.getElementById('ld-destination-autre').value.trim()
+      : DESTINATION_LABELS[destValue];
+    if (!depart || !destination) { alert('Please enter the pickup address and destination.'); return; }
+    const vehicule = document.getElementById('ld-vehicule').value;
+    rfSuiviCalcul(vehicule, 'longue_distance', null);
+
+    lastCalc = {
+      mode: 'longue-distance', ready: true, prix: null,
+      depart: depart, arrivee: destination,
+      vehiculeLabel: VEHICULE_LABELS[vehicule], typeLabel: 'Long distance — quote on request',
+      extra: {
+        date: document.getElementById('ld-date').value,
+        passagers: document.getElementById('ld-passagers').value,
+        bagages: document.getElementById('ld-bagages').value,
+        message: document.getElementById('ld-message').value
+      }
+    };
+    document.getElementById('calc-result').classList.remove('show');
+    afficherFormulaire();
+  }
+
+  function calculerMiseADisposition() {
+    const lieu = document.getElementById('mad-lieu').value.trim();
+    if (!lieu) { alert('Please enter the pickup location.'); return; }
+    const madDate = document.getElementById('mad-date').value;
+    const madHeure = document.getElementById('mad-heure').value;
+    if (!madDate || !madHeure) { alert('Please enter the date and time for the hourly hire.'); return; }
+    const vehicule = document.getElementById('mad-vehicule').value;
+    const duree = parseInt(document.getElementById('mad-duree').value, 10);
+    const kmSupp = parseInt(document.getElementById('mad-km-supp').value, 10) || 0;
+    const r = RFCalculatorCore.resolveMadPrice({ vehicule: vehicule, dureeHeures: duree, heureDebut: madHeure, kmSupp: kmSupp });
+    if (r.needsCorrection) { alert('Please check the vehicle, duration, start time and mileage.'); return; }
+    rfSuiviCalcul(vehicule, r.type === 'devis' ? 'mise_a_disposition_devis' : 'mise_a_disposition', r.type === 'devis' ? null : r.prix);
+    const extra = {
+      date: madDate,
+      heure: madHeure,
+      passagers: document.getElementById('mad-passagers').value,
+      bagages: document.getElementById('mad-bagages').value
+    };
+    const arrivee = 'Hourly hire — ' + duree + 'h — ' + r.kmInclus + ' km included' + (kmSupp > 0 ? ' (+' + kmSupp + ' km)' : '');
+
+    if (r.type === 'devis') {
+      // First Class : toujours sur devis, jamais de paiement à un prix calculé.
+      lastCalc = {
+        mode: 'mise-a-disposition', ready: true, prix: null,
+        depart: lieu, arrivee: arrivee,
+        vehiculeLabel: VEHICULE_LABELS[vehicule], typeLabel: 'First Class hourly hire — quote on request',
+        vehiculeCode: vehicule, madDuree: duree, madKmSupp: kmSupp, madHeure: madHeure,
+        extra: extra
+      };
+      document.getElementById('calc-result').classList.remove('show');
+      afficherFormulaire();
+      return;
+    }
+
+    let detail = duree + ' hours — ' + r.kmInclus + ' km included';
+    if (r.heuresNuit > 0) detail += ' — including ' + r.heuresNuit + ' h at the night rate (+€10/h)';
+    if (kmSupp > 0) detail += ' + ' + kmSupp + ' extra km (' + '€' + r.prixKmSupp.toFixed(2) + ')';
+
+    lastCalc = {
+      mode: 'mise-a-disposition', ready: true, prix: r.prix,
+      depart: lieu, arrivee: arrivee,
+      vehiculeLabel: VEHICULE_LABELS[vehicule], typeLabel: 'Hourly hire',
+      // Recalculées à l'identique par api/create-checkout.js (resolveMadPrice).
+      vehiculeCode: vehicule, madDuree: duree, madKmSupp: kmSupp, madHeure: madHeure,
+      bookingRef: (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : ('ref-' + Date.now() + '-' + Math.random().toString(36).slice(2)),
+      extra: extra
+    };
+    document.getElementById('calc-price').textContent = r.prix.toFixed(2) + ' €';
+    document.getElementById('calc-detail').textContent = detail;
+    document.getElementById('calc-airport-msg').style.display = 'none';
+    document.getElementById('calc-wa-btn').style.display = 'none';
+    document.getElementById('calc-invert-btn').style.display = 'none';
+    document.getElementById('calc-result').classList.add('show');
+    afficherFormulaire();
+    document.getElementById('calc-result').scrollIntoView({behavior:'smooth', block:'nearest'});
+  }
+
+  function calculerCircuit() {
+    const lieu = document.getElementById('circuit-lieu').value.trim();
+    if (!lieu) { alert('Please enter the pickup location.'); return; }
+    const circuitValue = document.getElementById('circuit-choix').value;
+    if (!circuitValue) { alert('Please choose a tour.'); return; }
+    const dureeValue = document.getElementById('circuit-duree').value;
+    const dureeLabel = dureeValue === 'journee' ? 'Full day' : 'Half day';
+    rfSuiviCalcul('van', 'circuit', null);
+
+    lastCalc = {
+      mode: 'circuit', ready: true, prix: null,
+      depart: lieu, arrivee: 'Tour — ' + CIRCUIT_LABELS[circuitValue],
+      vehiculeLabel: 'V-Class Van', typeLabel: 'Private tour — ' + dureeLabel + ' — quote on request',
+      extra: {
+        date: document.getElementById('circuit-date').value,
+        passagers: document.getElementById('circuit-passagers').value,
+        message: document.getElementById('circuit-message').value
+      }
+    };
+    document.getElementById('calc-result').classList.remove('show');
+    afficherFormulaire();
+  }
+
   function applyUrlParams() {
+    const params = new URLSearchParams(window.location.search);
+    const section = params.get('section');
+
+    if (section && ['simple','longue-distance','mise-a-disposition','circuit'].includes(section)) {
+      switchMode(section);
+    }
+
+    if (section === 'longue-distance') {
+      const dest = params.get('destination');
+      if (dest && document.getElementById('ld-destination')) {
+        const select = document.getElementById('ld-destination');
+        if (DESTINATION_LABELS[dest]) {
+          select.value = dest;
+        } else {
+          select.value = 'autre';
+          document.getElementById('ld-destination-autre-field').style.display = 'flex';
+          document.getElementById('ld-destination-autre').value = dest;
+        }
+      }
+      return;
+    }
+
+    if (section === 'mise-a-disposition') {
+      const vehiculeParam = params.get('vehicule');
+      if (vehiculeParam && document.getElementById('mad-vehicule')) {
+        const madVehicule = normalizeVehicule(vehiculeParam);
+        if (RFCalculatorCore.MAD_DUREES[madVehicule]) document.getElementById('mad-vehicule').value = madVehicule;
+      }
+      if (document.getElementById('mad-vehicule')) updateMadKmOptions();
+      return;
+    }
+
+    if (section === 'circuit') {
+      const circuit = params.get('circuit');
+      if (circuit && CIRCUIT_LABELS[circuit] && document.getElementById('circuit-choix')) {
+        document.getElementById('circuit-choix').value = circuit;
+      }
+      return;
+    }
+
     const departInput = document.getElementById('calc-depart');
     const arriveeInput = document.getElementById('calc-arrivee');
     if (!departInput || !arriveeInput) return;
 
-    const params = new URLSearchParams(window.location.search);
     if (params.get('depart')) {
       departInput.value = params.get('depart');
       arriveeInput.value = params.get('arrivee') || '';
       if (params.get('vehicule')) document.getElementById('calc-vehicule').value = normalizeVehicule(params.get('vehicule'));
       if (params.get('type')) document.getElementById('calc-type').value = params.get('type');
+      const attenteParam = params.get('attente');
+      if (attenteParam && Object.prototype.hasOwnProperty.call(ATTENTE_MINUTES, attenteParam)) {
+        document.getElementById('calc-attente').value = attenteParam;
+      }
+      const volParam = params.get('vol');
+      const volField = document.getElementById('vol');
+      if (volParam && volField) volField.value = volParam;
       updateAttenteDisplay();
+      // Le prix n'est JAMAIS repris de l'URL — toujours recalculé, mais
+      // seulement une fois Google Maps réellement chargé.
+      pendingAutoCalc = true;
     } else if (params.get('vehicule')) {
       document.getElementById('calc-vehicule').value = normalizeVehicule(params.get('vehicule'));
       updateAttenteDisplay();
@@ -593,6 +996,15 @@
       geocoder.geocode({ location: latlng }, function(results, status) {
         if (status === 'OK' && results[0] && departInput.value === valAvantGeoloc) {
           departInput.value = results[0].formatted_address;
+          departPlaceData = {
+            name: results[0].formatted_address || '',
+            formatted_address: results[0].formatted_address || '',
+            place_id: results[0].place_id || '',
+            types: results[0].types || [],
+            address_components: results[0].address_components || [],
+            lat: latlng.lat,
+            lng: latlng.lng
+          };
         }
       });
     }, function() { /* refusée ou indisponible : on ne fait rien, le visiteur saisit manuellement */ });
@@ -606,6 +1018,9 @@
     const tmp = departInput.value;
     departInput.value = arriveeInput.value;
     arriveeInput.value = tmp;
+    const tmpData = departPlaceData;
+    departPlaceData = arriveePlaceData;
+    arriveePlaceData = tmpData;
     calculerTrajet();
   }
 
@@ -619,16 +1034,85 @@
     } catch(e) {}
   });
 
+  // Données du lieu Google Places réellement sélectionné, conservées séparément
+  // pour le départ et l'arrivée. Invalidées si le visiteur retape du texte après sélection.
+  let departPlaceData = null;
+  let arriveePlaceData = null;
+
+  function extractPlaceData(place) {
+    if (!place || !place.geometry || !place.geometry.location) return null;
+    return {
+      name: place.name || '',
+      formatted_address: place.formatted_address || '',
+      place_id: place.place_id || '',
+      types: place.types || [],
+      address_components: place.address_components || [],
+      lat: place.geometry.location.lat(),
+      lng: place.geometry.location.lng()
+    };
+  }
+
   function initAutocomplete() {
     const departInput = document.getElementById('calc-depart');
     const arriveeInput = document.getElementById('calc-arrivee');
     if (!departInput || !arriveeInput) return;
-    new google.maps.places.Autocomplete(departInput, {componentRestrictions:{country:'fr'}, fields:['formatted_address','geometry']});
-    new google.maps.places.Autocomplete(arriveeInput, {fields:['formatted_address','geometry']});
 
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('depart') && params.get('prix')) { calculerTrajet(); }
-    else if (!params.get('depart')) { tryAutoGeolocation(); }
+    const departAutocomplete = new google.maps.places.Autocomplete(departInput, {componentRestrictions:{country:'fr'}, fields:['formatted_address','geometry','name','place_id','types','address_components']});
+    const arriveeAutocomplete = new google.maps.places.Autocomplete(arriveeInput, {fields:['formatted_address','geometry','name','place_id','types','address_components']});
+
+    // Une sélection Google Places peut, selon le navigateur, déclencher aussi un événement
+    // "input" natif au moment où elle renseigne le champ. Pour ne jamais effacer par erreur
+    // les données tout juste sélectionnées, l'invalidation sur "input" est différée : si un
+    // "place_changed" survient entre-temps, il annule cette invalidation en attente.
+    let departInvalidateTimer = null;
+    let arriveeInvalidateTimer = null;
+
+    departAutocomplete.addListener('place_changed', function() {
+      clearTimeout(departInvalidateTimer);
+      departPlaceData = extractPlaceData(departAutocomplete.getPlace());
+      invalidateCalcResult();
+    });
+    arriveeAutocomplete.addListener('place_changed', function() {
+      clearTimeout(arriveeInvalidateTimer);
+      arriveePlaceData = extractPlaceData(arriveeAutocomplete.getPlace());
+      invalidateCalcResult();
+    });
+    // Toute saisie manuelle après une sélection invalide les données Google Places associées
+    departInput.addEventListener('input', function() {
+      clearTimeout(departInvalidateTimer);
+      departInvalidateTimer = setTimeout(function() { departPlaceData = null; }, 200);
+      invalidateCalcResult();
+    });
+    arriveeInput.addEventListener('input', function() {
+      clearTimeout(arriveeInvalidateTimer);
+      arriveeInvalidateTimer = setTimeout(function() { arriveePlaceData = null; }, 200);
+      invalidateCalcResult();
+    });
+
+    if (pendingAutoCalc) {
+      pendingAutoCalc = false;
+      calculerTrajet();
+      rfGenAuto = calcGeneration;
+    } else {
+      const params = new URLSearchParams(window.location.search);
+      if (!params.get('depart')) { tryAutoGeolocation(); }
+    }
+
+    initGoogleReviews();
+  }
+
+  async function initGoogleReviews() {
+    try {
+      const { Place } = await google.maps.importLibrary("places");
+      const place = new Place({ id: "ChIJA6y9X8oBXqARykAhM8EFNPQ" });
+      await place.fetchFields({ fields: ["rating", "userRatingCount"] });
+      var rating = place.rating;
+      var total = place.userRatingCount;
+      document.querySelectorAll('.google-rating').forEach(function(el){el.textContent=rating?rating.toFixed(1)+'/5':'';});
+      document.querySelectorAll('.google-reviews-count').forEach(function(el){el.textContent=total?total+' reviews':'';});
+    } catch(e) {
+      console.log('Google Reviews fetch error:', e);
+    }
   }
 
   function normalizeVehicule(v) {
@@ -637,155 +1121,233 @@
   }
 
   function calculerTrajet() {
+    // Invalidation complète avant tout calcul : efface aussi le prix
+    // affiché, le résultat et le formulaire visibles — une erreur Google
+    // (adresse introuvable, distance non calculable) ne doit jamais
+    // laisser l'ancien résultat affiché à l'écran.
+    invalidateCalcResult();
+    const myGeneration = calcGeneration;
+
     const depart = document.getElementById('calc-depart').value.trim();
     const arrivee = document.getElementById('calc-arrivee').value.trim();
     const vehicule = document.getElementById('calc-vehicule').value;
     const type = document.getElementById('calc-type').value;
     if (!depart || !arrivee) { alert('Please fill in both addresses.'); return; }
 
-    const service = new google.maps.DistanceMatrixService();
-    service.getDistanceMatrix({ origins:[depart], destinations:[arrivee], travelMode:google.maps.TravelMode.DRIVING, unitSystem:google.maps.UnitSystem.METRIC }, function(response, status) {
-      if (status !== 'OK') { alert('Unable to calculate the distance. Please check the addresses.'); return; }
-      const element = response.rows[0].elements[0];
-      if (element.status !== 'OK') { alert('Address not found. Please check the addresses.'); return; }
-      const distKm = element.distance.value / 1000;
-      const origin = new google.maps.DistanceMatrixService();
-      origin.getDistanceMatrix({ origins:['Ribécourt-Dreslincourt, France'], destinations:[depart], travelMode:google.maps.TravelMode.DRIVING, unitSystem:google.maps.UnitSystem.METRIC }, function(resp2, status2) {
-        let distApproche = 0;
-        if (status2 === 'OK' && resp2.rows[0].elements[0].status === 'OK') { distApproche = resp2.rows[0].elements[0].distance.value / 1000; }
-        afficherPrix(depart, arrivee, distKm, distApproche, vehicule, type);
+    // Ferme la fenêtre de course des 200ms : si le champ a été modifié
+    // juste avant un clic rapide sur "Calculer", le minuteur d'invalidation
+    // n'a peut-être pas encore eu le temps de s'exécuter — on compare
+    // directement la valeur actuelle du champ à la sélection mémorisée,
+    // sans attendre le minuteur.
+    if (departPlaceData && departPlaceData.formatted_address !== depart && departPlaceData.name !== depart) {
+      departPlaceData = null;
+    }
+    if (arriveePlaceData && arriveePlaceData.formatted_address !== arrivee && arriveePlaceData.name !== arrivee) {
+      arriveePlaceData = null;
+    }
+
+    // Géocodage au clic UNIQUEMENT si l'adresse n'a pas été sélectionnée
+    // via Autocomplete, OU si la sélection existante est incomplète
+    // (address_components absent/vide) — fournit les composants d'adresse
+    // réels nécessaires à la reconnaissance stricte de Paris.
+    function geocodeManuelSiBesoin(addr, estDepart, callback) {
+      const existant = estDepart ? departPlaceData : arriveePlaceData;
+      const dejaComplet = existant && Array.isArray(existant.address_components) && existant.address_components.length > 0
+        && RFCalculatorCore.detectDepartement(existant) !== null;
+      if (dejaComplet) { callback(); return; }
+      const geocoder = new google.maps.Geocoder();
+      geocoder.geocode({ address: addr }, function(results, status) {
+        if (myGeneration !== calcGeneration) return;
+        if (status === 'OK' && results[0]) {
+          const data = {
+            name: results[0].formatted_address || '',
+            formatted_address: results[0].formatted_address || '',
+            place_id: results[0].place_id || '',
+            types: results[0].types || [],
+            address_components: results[0].address_components || [],
+            lat: results[0].geometry.location.lat(),
+            lng: results[0].geometry.location.lng()
+          };
+          if (estDepart) departPlaceData = data; else arriveePlaceData = data;
+        }
+        callback();
+      });
+    }
+
+    geocodeManuelSiBesoin(depart, true, function() {
+      if (myGeneration !== calcGeneration) return;
+      geocodeManuelSiBesoin(arrivee, false, function() {
+        if (myGeneration !== calcGeneration) return;
+
+        const service = new google.maps.DistanceMatrixService();
+        service.getDistanceMatrix({ origins:[depart], destinations:[arrivee], travelMode:google.maps.TravelMode.DRIVING, unitSystem:google.maps.UnitSystem.METRIC }, function(response, status) {
+          if (myGeneration !== calcGeneration) return;
+          if (status !== 'OK') { alert('Unable to calculate the distance. Please check the addresses.'); return; }
+          const element = response.rows[0].elements[0];
+          if (element.status !== 'OK') { alert('Address not found. Please check the addresses.'); return; }
+          const distKm = element.distance.value / 1000;
+          afficherPrix(depart, arrivee, distKm, vehicule, type, myGeneration);
+        });
       });
     });
   }
 
-  function afficherPrix(depart, arrivee, distKm, distApproche, vehicule, type) {
-    const departOrly = ORLY_KEYWORDS.some(k=>depart.toLowerCase().includes(k));
-    const arriveeOrly = ORLY_KEYWORDS.some(k=>arrivee.toLowerCase().includes(k));
-    const departCDG = isAirportCDG(depart);
-    const arriveeCDG = isAirportCDG(arrivee);
-    const departBeauvais = isAirportBeauvais(depart);
-    const arriveeBeauvais = isAirportBeauvais(arrivee);
-    const departDisney = depart.toLowerCase().includes('disney');
-    const arriveeDisney = arrivee.toLowerCase().includes('disney');
-    const departParis = isParisDepart(depart) && !departOrly && !departCDG && !departBeauvais && !departDisney;
-    const arriveeParis = isParisDepart(arrivee) && !arriveeOrly && !arriveeCDG && !arriveeBeauvais && !arriveeDisney;
-    const departVille = detectDepartVille(depart);
-    let prix = 0, detail = '', isForfait = false, waRedirect = false, waRedirectMsg = '', minApplied = false;
+  // Les messages du moteur commun (calculator-core.js) et du serveur de
+  // paiement sont rédigés en français : traduits ici pour la version anglaise.
+  function detailEN(d) {
+    if (!d) return d;
+    const map = [
+      ['Forfait fixe — prix confirmé à la réservation', 'Fixed-price package — price confirmed at booking'],
+      ['Trajet longue distance non calculable automatiquement — devis personnalisé', 'Long-distance trip that cannot be priced automatically — custom quote'],
+      ['Ce trajet nécessite un devis personnalisé.', 'This trip requires a custom quote.'],
+      ['Distance indisponible ou invalide', 'Distance unavailable or invalid'],
+      ['Distance ou véhicule invalide', 'Invalid distance or vehicle'],
+      ["Temps d'attente invalide — vérification nécessaire", 'Invalid waiting time — please check'],
+      ['Véhicule inconnu', 'Unknown vehicle']
+    ];
+    let out = String(d);
+    map.forEach(function (p) { out = out.split(p[0]).join(p[1]); });
+    out = out.replace(/ \+ attente \(([\d.]+)€\)/g, ' + waiting time (€$1)');
+    out = out.replace(/ — aller-retour/g, ' — round trip');
+    return out;
+  }
+  function serverErrorEN(msg) {
+    const map = {
+      'Email invalide': 'Invalid email address.',
+      'Téléphone invalide': 'Invalid phone number.',
+      'Données de réservation incomplètes': 'Incomplete booking details.',
+      'Véhicule invalide': 'Invalid vehicle.',
+      'Date ou heure de départ invalide': 'Invalid departure date or time.',
+      'Date ou heure de retour invalide': 'Invalid return date or time.',
+      'Le retour doit être postérieur au départ': 'The return must be after the departure.',
+      'Données de calcul manquantes — impossible de vérifier le prix côté serveur': 'Price details are missing — please calculate your trip again.',
+      'Ce trajet ne peut pas être payé en ligne automatiquement — contactez-nous directement.': 'This trip cannot be paid online automatically — please contact us directly.',
+      'Montant invalide': 'Invalid amount.',
+      'Référence de réservation manquante': 'Missing booking reference.',
+      'Impossible de créer la session de paiement': 'Unable to create the payment session.'
+    };
+    if (!msg) return '';
+    return map[msg] || 'Unable to create the payment session.';
+  }
 
-    let routeKey = null;
-    if (departParis && arriveeCDG) routeKey = 'paris-cdg';
-    else if (departCDG && arriveeParis) routeKey = 'paris-cdg';
-    else if (departParis && arriveeOrly) routeKey = 'paris-orly';
-    else if (departOrly && arriveeParis) routeKey = 'paris-orly';
-    else if (departParis && arriveeBeauvais) routeKey = 'paris-beauvais';
-    else if (departBeauvais && arriveeParis) routeKey = 'paris-beauvais';
-    else if (departParis && arriveeDisney) routeKey = 'paris-disney';
-    else if (departDisney && arriveeParis) routeKey = 'paris-disney';
-    else if (departParis && arriveeParis) routeKey = 'paris-paris';
-    else if (departOrly && arriveeCDG) routeKey = 'orly-cdg';
-    else if (departCDG && arriveeOrly) routeKey = 'orly-cdg';
-    else if (departOrly && arriveeDisney) routeKey = 'orly-disney';
-    else if (departDisney && arriveeOrly) routeKey = 'orly-disney';
-    else if (departCDG && arriveeDisney) routeKey = 'cdg-disney';
-    else if (departDisney && arriveeCDG) routeKey = 'cdg-disney';
 
-    if (routeKey && FORFAITS_PARIS[routeKey] && FORFAITS_PARIS[routeKey][vehicule]) {
-      prix = FORFAITS_PARIS[routeKey][vehicule];
-      isForfait = true;
-      detail = 'Forfait fixe — prix confirmé à la réservation';
-    }
-
-    if (!isForfait) {
-      const arriveeVille = detectDepartVille(arrivee);
-      let villeData = null, oiseDestKey = null;
-      if (departVille) {
-        villeData = FORFAITS_OISE[departVille];
-        if (arriveeDisney) oiseDestKey = 'disney';
-        else if (arriveeCDG) oiseDestKey = 'cdg';
-        else if (arriveeOrly) oiseDestKey = 'orly';
-        else if (arriveeBeauvais) oiseDestKey = 'beauvais';
-      } else if (arriveeVille) {
-        villeData = FORFAITS_OISE[arriveeVille];
-        if (departDisney) oiseDestKey = 'disney';
-        else if (departCDG) oiseDestKey = 'cdg';
-        else if (departOrly) oiseDestKey = 'orly';
-        else if (departBeauvais) oiseDestKey = 'beauvais';
+  // Suivi Google Analytics : un événement « calcul_trajet » par calcul de prix.
+  // Aucune adresse n'est transmise. Rien n'est envoyé si le visiteur a refusé les cookies
+  // (Google Analytics n'est alors jamais chargé).
+  var rfGenAuto = null;
+  function rfSuiviCalcul(vehicule, typePrix, prix) {
+    try {
+      if (typeof window.gtag !== 'function') return;
+      var VEH = { eco: 'classique', berline: 'business', van: 'van', first: 'first_class' };
+      var p = {
+        page_calcul: location.pathname.replace(/\.html$/, '') || '/',
+        vehicule: VEH[vehicule] || String(vehicule || ''),
+        type_prix: typePrix
+      };
+      if (typeof prix === 'number' && isFinite(prix)) {
+        p.prix = Math.round(prix * 100) / 100; p.value = p.prix; p.currency = 'EUR';
       }
-      if (villeData && oiseDestKey && villeData[oiseDestKey] && villeData[oiseDestKey][vehicule]) {
-        prix = villeData[oiseDestKey][vehicule];
-        isForfait = true;
-        detail = 'Forfait fixe — prix confirmé à la réservation';
-      }
-    }
+      window.gtag('event', 'calcul_trajet', p);
+    } catch (e) {}
+  }
 
-    const dept = detectDepartement(depart);
-    const departIDF = dept && IDF_DEPTS.includes(dept);
-    const zoneIDF = departParis || departIDF;
-    // Détection Oise robuste : code postal (60xxx) si disponible, sinon mot "Oise" dans l'adresse (fréquent même sans CP), en excluant "Val-d'Oise" (département 95, différent)
-    const zoneOise = (dept === '60') || (/\boise\b/i.test(depart) && !/val.?d.?oise/i.test(depart));
+  function afficherPrix(depart, arrivee, distKm, vehicule, type, myGeneration) {
+    if (typeof myGeneration === 'number' && myGeneration !== calcGeneration) return;
 
-    if (!isForfait && distKm > 200) {
-      waRedirect = true;
-      waRedirectMsg = 'Ce trajet de longue distance n\'est pas calculable automatiquement. Contactez-nous directement pour obtenir votre devis personnalisé.';
-    } else if (!isForfait && zoneIDF) {
-      waRedirect = true;
-      waRedirectMsg = 'Ce trajet nécessite un devis personnalisé. Contactez-nous directement pour obtenir votre tarif.';
-    } else if (!isForfait) {
-      const tarifKm = TARIFS_KM[vehicule];
-      prix = distKm * tarifKm;
-      detail = distKm.toFixed(0) + ' km';
+    const departData = Object.assign({}, departPlaceData || {}, { rawText: depart });
+    const arriveeData = Object.assign({}, arriveePlaceData || {}, { rawText: arrivee });
 
-      if ((dept === '02' || dept === '80') && distApproche > 25) {
-        const kmSupp = distApproche - 25;
-        const supplement = Math.round(kmSupp*0.40*100)/100;
-        prix += supplement;
-        detail += ' + ' + kmSupp.toFixed(0) + ' km d\'approche × 0,40€/km';
-      }
+    const departClassification = RFCalculatorCore.classifyLocation(departData);
+    const arriveeClassification = RFCalculatorCore.classifyLocation(arriveeData);
+    const departIsDisney = RFCalculatorCore.isDisney(depart);
+    const arriveeIsDisney = RFCalculatorCore.isDisney(arrivee);
+    const departOiseVille = RFCalculatorCore.classifyOiseCity(departData);
+    const arriveeOiseVille = RFCalculatorCore.classifyOiseCity(arriveeData);
 
-      if (distApproche > 50 && !zoneOise) {
-        waRedirect = true;
-        waRedirectMsg = 'Ce trajet est situé au-delà de notre zone de calcul automatique. Contactez-nous directement pour obtenir votre devis personnalisé.';
-      } else if (distApproche > 25) {
-        const min2 = PALIER2_MIN[vehicule];
-        if (prix < min2) { prix = min2; minApplied = true; detail = 'Tarif minimum appliqué : ce prix couvre le déplacement du chauffeur ainsi que votre trajet.'; }
-      } else {
-        const min1 = COURSE_MIN[vehicule];
-        if (prix < min1) { prix = min1; detail = 'Course minimum de ' + min1 + '€ — déplacement inclus.'; }
-      }
-    }
+    const zones = RFCalculatorCore.getTripZones(departData, arriveeData);
+    const dept = zones.departement;
+    const deptArrivee = zones.departementArrivee;
+    const departIsAirport = zones.departIsAirport;
+    const zoneIDF = zones.zoneIDF;
+    const zoneOise = zones.zoneOise;
 
-    if (waRedirect) {
+    const attenteVal = document.getElementById('calc-attente').value;
+    const attenteMin = ATTENTE_MINUTES[attenteVal] || 0;
+
+    const result = RFCalculatorCore.resolveTripPrice({
+      departClassification: departClassification,
+      arriveeClassification: arriveeClassification,
+      departIsDisney: departIsDisney,
+      arriveeIsDisney: arriveeIsDisney,
+      departOiseVille: departOiseVille,
+      arriveeOiseVille: arriveeOiseVille,
+      vehicule: vehicule,
+      distKm: distKm,
+
+
+      departement: dept, departementArrivee: deptArrivee, departIsAirport,
+      zoneIDF: zoneIDF,
+      zoneOise: zoneOise,
+      attenteMinutes: attenteMin > 0 ? attenteMin : undefined,
+      allerRetour: type === 'aller-retour'
+    });
+    if (result && result.detail) result.detail = detailEN(result.detail);
+
+    if (result.needsCorrection) {
       document.getElementById('calc-price').textContent = '—';
-      document.getElementById('calc-detail').textContent = waRedirectMsg;
+      document.getElementById('calc-detail').textContent = result.detail || 'A value is invalid, please check your entry.';
       document.getElementById('calc-airport-msg').style.display = 'none';
       document.getElementById('resa-section').classList.remove('show');
-      const waBtn = document.getElementById('calc-wa-btn');
-      waBtn.style.display = 'inline-flex';
-      waBtn.href = 'https://wa.me/33605717711?text=' + encodeURIComponent('Bonjour, je souhaite un devis pour un trajet de ' + depart + ' à ' + arrivee + '.');
+      document.getElementById('calc-wa-btn').style.display = 'none';
+      lastCalc = {};
       document.getElementById('calc-result').classList.add('show');
       document.getElementById('calc-result').scrollIntoView({behavior:'smooth', block:'nearest'});
       return;
     }
 
-    const attenteVal = document.getElementById('calc-attente').value;
-    const attenteMin = ATTENTE_MINUTES[attenteVal] || 0;
-    if (attenteMin>0) {
-      const tarifHoraire = ATTENTE_TARIF_HORAIRE[vehicule];
-      const attentePrix = Math.round((attenteMin/60)*tarifHoraire*100)/100;
-      prix += attentePrix;
-      detail += ' + attente ' + document.getElementById('calc-attente').selectedOptions[0].text.split('—')[0].trim() + ' (' + attentePrix.toFixed(2) + '€)';
+    if (result.prix === null) {
+      if (rfGenAuto === null || myGeneration !== rfGenAuto) rfSuiviCalcul(vehicule, 'devis', null);
+      document.getElementById('calc-price').textContent = '—';
+      document.getElementById('calc-detail').textContent = result.detail || 'This trip requires a personalized quote. Please contact us directly for your rate.';
+      document.getElementById('calc-airport-msg').style.display = 'none';
+      document.getElementById('resa-section').classList.remove('show');
+      const waBtn = document.getElementById('calc-wa-btn');
+      waBtn.style.display = 'inline-flex';
+      waBtn.href = 'https://wa.me/33605717711?text=' + encodeURIComponent('Hello, I would like a quote for a trip from ' + depart + ' to ' + arrivee + '.');
+      document.getElementById('calc-result').classList.add('show');
+      document.getElementById('calc-result').scrollIntoView({behavior:'smooth', block:'nearest'});
+      return;
     }
-    if (type==='aller-retour') {
-      if (isForfait) { prix = prix*2; detail += ' — aller-retour'; }
-      else { prix = prix*2*0.95; detail += ' — aller-retour (-5%)'; }
+
+    const prix = result.prix;
+    if (rfGenAuto === null || myGeneration !== rfGenAuto) rfSuiviCalcul(vehicule, result.isForfait ? 'forfait' : 'kilometre', prix);
+    const detail = result.detail || '';
+
+    let attenteLabel = '';
+    if (attenteMin > 0) {
+      const tarifHoraire = RFCalculatorCore.ATTENTE_TARIF_HORAIRE[vehicule];
+      const attentePrixLabel = Math.round((attenteMin/60)*tarifHoraire*100)/100;
+      attenteLabel = document.getElementById('calc-attente').selectedOptions[0].text.split('—')[0].trim() + ' (€' + attentePrixLabel.toFixed(2) + ')';
     }
 
     document.getElementById('calc-price').textContent = prix.toFixed(2) + ' €';
     document.getElementById('calc-detail').textContent = detail;
-    lastCalc = { depart, arrivee, vehicule, type, prix: prix };
+    lastCalc = {
+      mode: 'simple', ready: true, prix: prix,
+      depart: depart, arrivee: arrivee,
+      vehiculeLabel: VEHICULE_LABELS[vehicule], typeLabel: TYPE_LABELS[type],
+      attente: attenteLabel,
+      vehiculeCode: vehicule, allerRetour: type === 'aller-retour',
+      departClassification: departClassification, arriveeClassification: arriveeClassification,
+      departIsDisney: departIsDisney, arriveeIsDisney: arriveeIsDisney,
+      departOiseVille: departOiseVille, arriveeOiseVille: arriveeOiseVille,
+      distKm: distKm,
+      departement: dept, departementArrivee: deptArrivee, departIsAirport, zoneIDF: zoneIDF, zoneOise: zoneOise, attenteMin: attenteMin,
+      bookingRef: (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : ('ref-' + Date.now() + '-' + Math.random().toString(36).slice(2))
+    };
 
     const airportMsg = document.getElementById('calc-airport-msg');
-    if (departCDG || arriveeCDG || departOrly || arriveeOrly || departBeauvais || arriveeBeauvais) {
+    if (['cdg','ory','bva'].includes(departClassification) || ['cdg','ory','bva'].includes(arriveeClassification)) {
       airportMsg.style.display = 'block';
     } else {
       airportMsg.style.display = 'none';
@@ -800,20 +1362,74 @@
     document.getElementById('calc-result').scrollIntoView({behavior:'smooth', block:'nearest'});
   }
 
-  const VEHICULE_LABELS = { 'eco':'Standard','berline':'Sedan','van':'V-Class Van' };
-  const TYPE_LABELS = { 'simple':'One-way','aller-retour':'Round trip' };
+  const VEHICULE_LABELS = { 'eco':'Standard','berline':'Business','van':'V-Class Van','first':'First Class' };
+  const TYPE_LABELS = { 'simple':'One way','aller-retour':'Round trip' };
 
   function afficherFormulaire() {
-    if (!lastCalc.prix) return;
+    if (!lastCalc.ready) return;
     document.getElementById('rf-depart').textContent = lastCalc.depart;
     document.getElementById('rf-arrivee').textContent = lastCalc.arrivee;
-    document.getElementById('rf-vehicule').textContent = VEHICULE_LABELS[lastCalc.vehicule];
-    document.getElementById('rf-type').textContent = TYPE_LABELS[lastCalc.type];
-    document.getElementById('rf-prix').textContent = lastCalc.prix.toFixed(2) + ' €';
+    document.getElementById('rf-vehicule').textContent = lastCalc.vehiculeLabel;
+    document.getElementById('rf-type').textContent = lastCalc.typeLabel;
+    document.getElementById('rf-prix').textContent = lastCalc.prix ? (lastCalc.prix.toFixed(2) + ' €') : 'Quote on request';
+
+    const extra = lastCalc.extra || {};
+    document.getElementById('date').value = extra.date || '';
+    document.getElementById('heure').value = extra.heure || '';
+    document.getElementById('passagers').value = extra.passagers || '1';
+    document.getElementById('bagages').value = extra.bagages || 'non';
+    document.getElementById('message').value = extra.message || '';
+
+    const retourFields = document.getElementById('retourFields');
+    const dateRetourInput = document.getElementById('dateRetour');
+    const heureRetourInput = document.getElementById('heureRetour');
+    if (lastCalc.typeLabel === 'Round trip') {
+      retourFields.style.display = '';
+      dateRetourInput.setAttribute('required', 'required');
+      heureRetourInput.setAttribute('required', 'required');
+    } else {
+      retourFields.style.display = 'none';
+      dateRetourInput.removeAttribute('required');
+      heureRetourInput.removeAttribute('required');
+      dateRetourInput.value = '';
+      heureRetourInput.value = '';
+    }
+
+    const paiementField = document.getElementById('paiementField');
+    const btn = document.getElementById('btn-confirm');
+    if (lastCalc.prix) {
+      paiementField.style.display = '';
+      btn.textContent = 'Confirm booking';
+    } else {
+      paiementField.style.display = 'none';
+      btn.textContent = 'Send my quote request';
+    }
     document.getElementById('resa-section').classList.add('show');
+    document.getElementById('resa-section').scrollIntoView({behavior:'smooth', block:'nearest'});
   }
 
   function selectPayment(type, el) { document.querySelectorAll('.payment-option').forEach(o=>o.classList.remove('selected')); el.classList.add('selected'); }
+
+  // Conversion Google Ads — déclenchée uniquement après un succès réel
+  // (jamais au clic, jamais au chargement, jamais si l'API renvoie une
+  // erreur). uniqueKey doit être différent pour chaque réservation/session
+  // (jamais une clé fixe partagée) : pour le retour Stripe, le vrai
+  // session_id ; pour les autres modes, un identifiant généré à la
+  // soumission. Stocké en localStorage pour résister à un rafraîchissement
+  // de la page de retour Stripe, qui rejouerait sinon le même succès.
+  function envoyerConversionGoogleAds(uniqueKey) {
+    let dejaEnvoyee = false;
+    try { dejaEnvoyee = !!localStorage.getItem('rf_gads_conv_' + uniqueKey); } catch (e) {}
+    if (dejaEnvoyee) return;
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', { send_to: 'AW-18397934464/cSKSCJmauYUdEIDn6MRE' });
+      try { localStorage.setItem('rf_gads_conv_' + uniqueKey, '1'); } catch (e) {}
+    }
+  }
+  function genererIdUnique() {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+    return 'id-' + Date.now() + '-' + Math.random().toString(36).slice(2);
+  }
 
   function confirmerReservation() {
     const nom = document.getElementById('nom').value.trim();
@@ -823,37 +1439,85 @@
     const date = document.getElementById('date').value;
     const heure = document.getElementById('heure').value;
     if (!nom || !prenom || !tel || !email || !date || !heure) { alert('Please fill in all required fields.'); return; }
-    if (!lastCalc.prix) { alert('Veuillez d\'abord calculer votre trajet.'); return; }
+    if (!lastCalc.ready) { alert('Please calculate your trip first.'); return; }
+
+    const isAllerRetour = lastCalc.typeLabel === 'Round trip';
+    const dateRetour = document.getElementById('dateRetour').value;
+    const heureRetour = document.getElementById('heureRetour').value;
+    if (isAllerRetour && (!dateRetour || !heureRetour)) { alert('Please enter the return date and time.'); return; }
+
+    if (lastCalc.mode === 'mise-a-disposition' && lastCalc.prix && heure !== lastCalc.madHeure) { alert('You have changed the start time: the price of an hourly hire depends on the time (night surcharge from 9 pm to 6 am). Please recalculate the price with the new time.'); return; }
 
     const paiement = document.querySelector('input[name="paiement"]:checked').value;
     const reservationData = {
       nom, prenom, tel, email, date, heure,
+      dateRetour: isAllerRetour ? dateRetour : '',
+      heureRetour: isAllerRetour ? heureRetour : '',
       passagers: document.getElementById('passagers').value,
       bagages: document.getElementById('bagages').value,
       vol: document.getElementById('vol').value,
       message: document.getElementById('message').value,
       depart: lastCalc.depart, arrivee: lastCalc.arrivee,
-      vehicule: VEHICULE_LABELS[lastCalc.vehicule], type: TYPE_LABELS[lastCalc.type],
-      prix: lastCalc.prix.toFixed(2) + '€', paiement
+      vehicule: lastCalc.vehiculeLabel, type: lastCalc.typeLabel,
+      attente: lastCalc.attente || '',
+      bookingRef: lastCalc.bookingRef || '',
+      prix: lastCalc.prix ? (lastCalc.prix.toFixed(2) + '€') : 'Quote on request', paiement
     };
     const btn = document.getElementById('btn-confirm');
     btn.disabled = true;
+    const idReservation = genererIdUnique(); // identifiant propre à CETTE soumission, jamais partagé
+
+    if (!lastCalc.prix) {
+      // Modes sur devis (longue distance, circuit) : pas de paiement, envoi direct de la demande
+      const devisEmailType = lastCalc.mode === 'circuit' ? 'circuit' : (lastCalc.mode === 'mise-a-disposition' ? 'first_class' : 'longue_distance');
+      btn.textContent = 'Sending request...';
+      Promise.all([
+        fetch('/api/send-email', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ ...reservationData, emailType: devisEmailType + '_client' }) }),
+        fetch('/api/send-email', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ ...reservationData, emailType: devisEmailType + '_notification' }) })
+      ])
+      .then(async responses => {
+        const hasError = responses.some(r=>!r.ok);
+        if (hasError) throw new Error('Erreur email');
+        envoyerConversionGoogleAds(idReservation);
+        const successDiv = document.createElement('div');
+        successDiv.className = 'success-msg';
+        successDiv.innerHTML = '✅ Your quote request has been sent. A confirmation email has been sent to you.';
+        document.body.appendChild(successDiv);
+        setTimeout(() => successDiv.remove(), 6000);
+        document.getElementById('resaForm').reset();
+        document.getElementById('resa-section').classList.remove('show');
+        document.getElementById('calc-result').classList.remove('show');
+      })
+      .catch(() => { alert('Unable to send your request. Please call us at +33 1 89 31 43 49.'); })
+      .finally(() => { btn.textContent = 'Send my quote request'; btn.disabled = false; });
+      return;
+    }
 
     if (paiement === 'ligne') {
-      btn.textContent = 'Redirection vers le paiement...';
+      btn.textContent = 'Redirecting to payment...';
       sessionStorage.setItem('reservationData', JSON.stringify(reservationData));
       fetch('/api/create-checkout', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({
-        amount: lastCalc.prix, description: 'Trajet RF Driver : ' + lastCalc.depart + ' → ' + lastCalc.arrivee + ' le ' + date + ' à ' + heure,
-        customerEmail: email, customerName: prenom + ' ' + nom, ...reservationData
+        amount: lastCalc.prix, description: 'RF Driver trip: ' + lastCalc.depart + ' → ' + lastCalc.arrivee + ' on ' + date + ' at ' + heure,
+        customerEmail: email, customerName: prenom + ' ' + nom, ...reservationData,
+        vehiculeCode: lastCalc.vehiculeCode, allerRetour: lastCalc.allerRetour,
+        mode: lastCalc.mode === 'mise-a-disposition' ? 'mise-a-disposition' : 'trajet',
+        madDuree: lastCalc.madDuree, madKmSupp: lastCalc.madKmSupp,
+        departClassification: lastCalc.departClassification, arriveeClassification: lastCalc.arriveeClassification,
+        departIsDisney: lastCalc.departIsDisney, arriveeIsDisney: lastCalc.arriveeIsDisney,
+        departOiseVille: lastCalc.departOiseVille, arriveeOiseVille: lastCalc.arriveeOiseVille,
+        distKm: lastCalc.distKm,
+        departement: lastCalc.departement, departementArrivee: lastCalc.departementArrivee, departIsAirport: lastCalc.departIsAirport, zoneIDF: lastCalc.zoneIDF, zoneOise: lastCalc.zoneOise,
+        attenteMinutes: lastCalc.attenteMin > 0 ? lastCalc.attenteMin : undefined,
+        bookingRef: lastCalc.bookingRef, returnPath: '/en/reservation'
       })})
       .then(r=>r.json())
       .then(data => {
         if (data.url) { window.location.href = data.url; }
-        else { alert('Erreur : ' + (data.error || 'Impossible de créer la session de paiement.')); btn.textContent='Confirmer la réservation'; btn.disabled=false; }
+        else { alert('Error: ' + (serverErrorEN(data.error) || 'Unable to create the payment session.')); btn.textContent='Confirm booking'; btn.disabled=false; }
       })
-      .catch(() => { alert('Erreur de connexion. Veuillez réessayer.'); btn.textContent='Confirmer la réservation'; btn.disabled=false; });
+      .catch(() => { alert('Connection error. Please try again.'); btn.textContent='Confirm booking'; btn.disabled=false; });
     } else {
-      btn.textContent = 'Envoi de la demande...';
+      btn.textContent = 'Sending request...';
       Promise.all([
         fetch('/api/send-email', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ ...reservationData, emailType:'paiement_bord_client' }) }),
         fetch('/api/send-email', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ ...reservationData, emailType:'paiement_bord_notification' }) })
@@ -861,17 +1525,18 @@
       .then(async responses => {
         const hasError = responses.some(r=>!r.ok);
         if (hasError) throw new Error('Erreur email');
+        envoyerConversionGoogleAds(idReservation);
         const successDiv = document.createElement('div');
         successDiv.className = 'success-msg';
-        successDiv.innerHTML = '✅ Votre demande est envoyée. Un email de confirmation vous a été transmis.';
+        successDiv.innerHTML = '✅ Your request has been sent. A confirmation email has been sent to you.';
         document.body.appendChild(successDiv);
         setTimeout(() => successDiv.remove(), 6000);
         document.getElementById('resaForm').reset();
         document.getElementById('resa-section').classList.remove('show');
         document.getElementById('calc-result').classList.remove('show');
       })
-      .catch(() => { alert('Impossible d\'envoyer la demande. Appelez-nous au 06 05 71 77 11.'); })
-      .finally(() => { btn.textContent = 'Confirmer la réservation'; btn.disabled = false; });
+      .catch(() => { alert('Unable to send your request. Please call us at +33 1 89 31 43 49.'); })
+      .finally(() => { btn.textContent = 'Confirm booking'; btn.disabled = false; });
     }
   }
 
@@ -880,15 +1545,21 @@
     const savedData = sessionStorage.getItem('reservationData');
     if (savedData) {
       sessionStorage.removeItem('reservationData');
+      const stripeSessionId = urlParams.get('session_id');
+      // Clé anti-doublon = le vrai session_id Stripe, unique par paiement —
+      // jamais de clé fixe. Si absent (lien ancien sans ce paramètre), on ne
+      // déclenche pas plutôt que d'utiliser une clé partagée à risque.
+      if (stripeSessionId) envoyerConversionGoogleAds(stripeSessionId);
       const successDiv = document.createElement('div');
       successDiv.className = 'success-msg';
-      successDiv.innerHTML = '✅ Paiement confirmé ! Un email de confirmation vous a été envoyé.';
+      successDiv.innerHTML = '✅ Payment confirmed! A confirmation email has been sent to you.';
       document.body.appendChild(successDiv);
       setTimeout(() => successDiv.remove(), 6000);
     }
   }
 
   updateAttenteDisplay();
+  updateMadKmOptions();
 </script>
 </body>
 </html>
